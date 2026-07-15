@@ -1,0 +1,156 @@
+
+============================================================
+File: his.npz
+Type: NPZ
+Size: 46.97 MB
+Arrays: ['data', 'mean', 'std']
+
+[data]
+
+Structure
+----------------------------------------
+Shape      : (52116, 325, 3)
+Dtype      : float64
+Dimensions : 3
+
+Statistics
+----------------------------------------
+Min        : -6.6470
+Max        : 2.3695
+Mean       : 0.3043
+Std        : 0.6711
+Median     : 0.4200
+25%        : 0.1429
+75%        : 0.6354
+Missing    : 0
+
+Traffic tensor
+----------------------------------------
+Frames     : 52116
+Sensors    : 325
+Features   : 3
+Feature 0: normalized traffic value
+Feature 1: time-of-day encoding
+Feature 2: day-of-week encoding
+
+Feature statistics
+----------------------------------------
+
+Feature 0
+  Mean     : -0.0124
+  Std      : 1.0165
+  Min      : -6.6470
+  Max      : 2.3695
+
+Feature 1
+  Mean     : 0.4984
+  Std      : 0.2886
+  Min      : 0.0000
+  Max      : 0.9965
+
+Feature 2
+  Mean     : 0.4269
+  Std      : 0.2857
+  Min      : 0.0000
+  Max      : 0.8571
+
+[mean]
+
+Structure
+----------------------------------------
+Shape      : ()
+Dtype      : float64
+Dimensions : 0
+
+Statistics
+----------------------------------------
+Min        : 62.7363
+Max        : 62.7363
+Mean       : 62.7363
+Std        : 0.0000
+Median     : 62.7363
+25%        : 62.7363
+75%        : 62.7363
+Missing    : 0
+
+[std]
+
+Structure
+----------------------------------------
+Shape      : ()
+Dtype      : float64
+Dimensions : 0
+
+Statistics
+----------------------------------------
+Min        : 9.4383
+Max        : 9.4383
+Mean       : 9.4383
+Std        : 0.0000
+Median     : 9.4383
+25%        : 9.4383
+75%        : 9.4383
+Missing    : 0
+
+============================================================
+File: idx_test.npy
+Type: NPY
+Size        : 81.52 KB
+
+Array structure
+------------------------------------------------------------
+Shape      : (10419,)
+Dtype      : int64
+Dimensions : 1
+
+Value statistics
+------------------------------------------------------------
+Min        : 41685
+Max        : 52103
+Mean       : 46894.0000
+Std        : 3007.7062
+Median     : 46894.0000
+25%        : 44289.5000
+75%        : 49498.5000
+
+============================================================
+File: idx_train.npy
+Type: NPY
+Size        : 285.01 KB
+
+Array structure
+------------------------------------------------------------
+Shape      : (36465,)
+Dtype      : int64
+Dimensions : 1
+
+Value statistics
+------------------------------------------------------------
+Min        : 11
+Max        : 36475
+Mean       : 18243.0000
+Std        : 10526.5388
+Median     : 18243.0000
+25%        : 9127.0000
+75%        : 27359.0000
+
+============================================================
+File: idx_val.npy
+Type: NPY
+Size        : 40.82 KB
+
+Array structure
+------------------------------------------------------------
+Shape      : (5209,)
+Dtype      : int64
+Dimensions : 1
+
+Value statistics
+------------------------------------------------------------
+Min        : 36476
+Max        : 41684
+Mean       : 39080.0000
+Std        : 1503.7087
+Median     : 39080.0000
+25%        : 37778.0000
+75%        : 40382.0000

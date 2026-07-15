@@ -1,0 +1,18 @@
+
+============================================================
+File: adj_mx.pkl
+Type: Pickle (.pkl)
+Size: 664.51 KB
+Python type: <class 'list'>
+
+No statistical analysis available.
+Object structure handled by inspect_data.py
+
+============================================================
+File: adj_mx_bay.pkl
+Type: Pickle (.pkl)
+Size: 1.60 MB
+Python type: <class 'list'>
+
+No statistical analysis available.
+Object structure handled by inspect_data.py
