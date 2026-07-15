@@ -1,0 +1,64 @@
+======================================================================
+File        : his.npz
+Type        : NumPy archive (.npz)
+Size        : 24.46 MB
+
+Arrays (3):
+
+[data]
+  Shape      : (34272, 207, 3)
+  Dtype      : float64
+  Dimensions : 3
+  Elements   : 21282912
+  Preview    : [0.51146858 0.         0.42857143 0.67815468 0.         0.42857143
+ 0.65251066 0.         0.42857143 0.3640155 ]
+  Frames      : 34272
+  Sensors     : 207
+  Features    : 3
+  Interpretation: traffic tensor (time × sensors × features)
+
+[mean]
+  Shape      : ()
+  Dtype      : float64
+  Dimensions : 0
+  Elements   : 1
+  Preview    : [54.40252503]
+  Scalar      : 54.40252502653338
+
+[std]
+  Shape      : ()
+  Dtype      : float64
+  Dimensions : 0
+  Elements   : 1
+  Preview    : [19.49772727]
+  Scalar      : 19.497727271786765
+======================================================================
+File        : idx_test.npy
+Type        : NumPy array (.npy)
+Size        : 53.64 KB
+
+Shape       : (6850,)
+Dtype       : int64
+Dimensions  : 1
+Elements    : 6850
+Preview     : [27410 27411 27412 27413 27414 27415 27416 27417 27418 27419]
+======================================================================
+File        : idx_train.npy
+Type        : NumPy array (.npy)
+Size        : 187.42 KB
+
+Shape       : (23974,)
+Dtype       : int64
+Dimensions  : 1
+Elements    : 23974
+Preview     : [11 12 13 14 15 16 17 18 19 20]
+======================================================================
+File        : idx_val.npy
+Type        : NumPy array (.npy)
+Size        : 26.88 KB
+
+Shape       : (3425,)
+Dtype       : int64
+Dimensions  : 1
+Elements    : 3425
+Preview     : [23985 23986 23987 23988 23989 23990 23991 23992 23993 23994]

@@ -1,0 +1,24 @@
+======================================================================
+File        : metrla_his_2012.h5
+Type        : HDF5
+Size        : 54.40 MB
+
+DataFrame
+--------------------------------------------------
+Shape       : (34272, 207)
+Index type  : DatetimeIndex
+
+First timestamp:
+2012-03-01 00:00:00
+
+Last timestamp:
+2012-06-27 23:55:00
+
+Time-series statistics
+--------------------------------------------------
+Duration (days)          : 119.00
+Sampling interval (min)  : 5.0
+Number of frames         : 34272
+Time range               : 2012-03-01 00:00:00 --> 2012-06-27 23:55:00
+Sensors                  : 207
+Features per sensor      : 1

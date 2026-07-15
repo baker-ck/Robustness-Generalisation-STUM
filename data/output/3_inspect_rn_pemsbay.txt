@@ -1,0 +1,20 @@
+======================================================================
+File        : pemsbay_rn_adj.npy
+Type        : NumPy array (.npy)
+Size        : 412.72 KB
+
+Shape       : (325, 325)
+Dtype       : float32
+Dimensions  : 2
+Elements    : 105625
+Preview     : [1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+
+------------------------------------------------------------
+Detected: SQUARE MATRIX → possible adjacency matrix
+------------------------------------------------------------
+Nodes              : 325
+Num edges (nonzero): 2694
+Density            : 0.025505
+Sparsity           : 0.974495
+
+Symmetric          : False

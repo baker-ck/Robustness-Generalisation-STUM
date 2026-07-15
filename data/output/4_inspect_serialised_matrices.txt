@@ -1,0 +1,42 @@
+======================================================================
+File        : adj_mx.pkl
+Type        : Pickle
+Size        : 664.51 KB
+
+Python object : <class 'list'>
+
+Length : 3
+
+Item 0
+  Type : <class 'list'>
+  Length : 207
+
+Item 1
+  Type : <class 'dict'>
+  Keys : 207
+
+Item 2
+  Type : <class 'numpy.ndarray'>
+  Shape : (207, 207)
+  Dtype : float32
+======================================================================
+File        : adj_mx_bay.pkl
+Type        : Pickle
+Size        : 1.60 MB
+
+Python object : <class 'list'>
+
+Length : 3
+
+Item 0
+  Type : <class 'list'>
+  Length : 325
+
+Item 1
+  Type : <class 'dict'>
+  Keys : 325
+
+Item 2
+  Type : <class 'numpy.ndarray'>
+  Shape : (325, 325)
+  Dtype : float32

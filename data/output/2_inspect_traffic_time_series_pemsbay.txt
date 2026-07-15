@@ -1,0 +1,24 @@
+======================================================================
+File        : pemsbay_his_2017.h5
+Type        : HDF5
+Size        : 129.63 MB
+
+DataFrame
+--------------------------------------------------
+Shape       : (52116, 325)
+Index type  : DatetimeIndex
+
+First timestamp:
+2017-01-01 00:00:00
+
+Last timestamp:
+2017-06-30 23:55:00
+
+Time-series statistics
+--------------------------------------------------
+Duration (days)          : 181.00
+Sampling interval (min)  : 5.0
+Number of frames         : 52116
+Time range               : 2017-01-01 00:00:00 --> 2017-06-30 23:55:00
+Sensors                  : 325
+Features per sensor      : 1
