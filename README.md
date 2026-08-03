@@ -59,18 +59,18 @@ STUM/
 
 <table>
   <tr>
-    <th>Group</th>
-    <th>Value</th>
+    <th></th>
+    <th>Model</th>
   </tr>
   <tr>
     <td rowspan="3">Experiment 1</td>
-    <td>Row 1</td>
+    <td>Model A</td>
   </tr>
   <tr>
-    <td>Row 2</td>
+    <td>Model A+</td>
   </tr>
   <tr>
-    <td>Row 3</td>
+    <td>$\Delta$ </td>
   </tr>
 </table>
   
