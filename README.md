@@ -66,50 +66,8 @@ STUM/
   </tr>
   <tr>
     <th>Average MAE</th>
-    <th>RMSE</th>
-    <th>MAPE</th>
-    <th>Average MAE</th>
-    <th>RMSE</th>
-    <th>MAPE</th>
-  </tr>
-
-  <tr>
-    <td rowspan="3">Experiment 1</td>
-    <td>Model A</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-  </tr>
-  <tr>
-    <td>Model A+</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-  </tr>
-  <tr>
-    <td>$\Delta$</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-  </tr>
-
-</table>
-
-
-
-<table>
-  <tr>
-    <th></th>
-    <th>Model</th>
+    <th>Average RMSE</th>
+    <th>Average MAPE</th>
     <th>Average MAE</th>
     <th>Average RMSE</th>
     <th>Average MAPE</th>
@@ -117,13 +75,19 @@ STUM/
 
   <tr>
     <td rowspan="3">Experiment 1</td>
-    <td>Model A</td>
+    <td>STGCN</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
   </tr>
   <tr>
-    <td>Model A+</td>
+    <td>STUM+STGCN</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
@@ -133,17 +97,26 @@ STUM/
     <td>—</td>
     <td>—</td>
     <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
   </tr>
 
-  <tr>
+    <tr>
     <td rowspan="3">Experiment 2</td>
-    <td>Model A</td>
+    <td>DCRNN</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
   </tr>
   <tr>
-    <td>Model A+</td>
+    <td>STUM+DCRNN</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
@@ -153,17 +126,26 @@ STUM/
     <td>—</td>
     <td>—</td>
     <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
   </tr>
 
-  <tr>
+    <tr>
     <td rowspan="3">Experiment 3</td>
-    <td>Model A</td>
+    <td>DGCRN</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
   </tr>
   <tr>
-    <td>Model A+</td>
+    <td>STUM+DGCRN</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
@@ -173,17 +155,26 @@ STUM/
     <td>—</td>
     <td>—</td>
     <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
   </tr>
 
-  <tr>
+    <tr>
     <td rowspan="3">Experiment 4</td>
     <td>Model A</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
   </tr>
   <tr>
     <td>Model A+</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
@@ -193,17 +184,26 @@ STUM/
     <td>—</td>
     <td>—</td>
     <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
   </tr>
 
-  <tr>
+    <tr>
     <td rowspan="3">Experiment 5</td>
     <td>Model A</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
   </tr>
   <tr>
     <td>Model A+</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
@@ -213,17 +213,26 @@ STUM/
     <td>—</td>
     <td>—</td>
     <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
   </tr>
 
-  <tr>
+    <tr>
     <td rowspan="3">Experiment 6</td>
     <td>Model A</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
   </tr>
   <tr>
     <td>Model A+</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
@@ -233,31 +242,46 @@ STUM/
     <td>—</td>
     <td>—</td>
     <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
   </tr>
 
-  <tr>
+    <tr>
     <td rowspan="3">Experiment 7</td>
     <td>Model A</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
   </tr>
   <tr>
     <td>Model A+</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
   </tr>
   <tr>
     <td>$\Delta$</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
   </tr>
 
-  <tr>
+    <tr>
     <td rowspan="3">Experiment 8</td>
     <td>Model A</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
@@ -267,9 +291,15 @@ STUM/
     <td>—</td>
     <td>—</td>
     <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
   </tr>
   <tr>
     <td>$\Delta$</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
@@ -278,9 +308,8 @@ STUM/
 </table>
 
 
-This will render as a grouped table with 24 data rows (8 experiments × 3 rows each).
   
-| Trained baseline | Average MAE | Average RMSE | Average MAPE |
+| Model | Average MAE | Average RMSE | Average MAPE |
 |------------------|-------------|--------------|--------------|
 | stgcn            |   XX.XXXX   |   XX.XXXX    |    XX.XXXX   |
 | stum+stgcn       |   XX.XXXX   |   XX.XXXX    |    XX.XXXX   |
