@@ -72,26 +72,6 @@ STUM/
   <tr>
     <td>Row 3</td>
   </tr>
-  <tr>
-    <td rowspan="3">Experiment 2</td>
-    <td>Row 1</td>
-  </tr>
-  <tr>
-    <td>Row 2</td>
-  </tr>
-  <tr>
-    <td>Row 3</td>
-  </tr>
-  <tr>
-    <td rowspan="3">Experiment 3</td>
-    <td>Row 1</td>
-  </tr>
-  <tr>
-    <td>Row 2</td>
-  </tr>
-  <tr>
-    <td>Row 3</td>
-  </tr>
 </table>
   
 | Trained baseline | Average MAE | Average RMSE | Average MAPE |
