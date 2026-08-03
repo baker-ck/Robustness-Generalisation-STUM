@@ -57,13 +57,33 @@ STUM/
 - Horizons: 12
 - Criteria: validation loss
 
-- <table>
+<table>
   <tr>
     <th>Group</th>
     <th>Value</th>
   </tr>
   <tr>
-    <td rowspan="3">Group A</td>
+    <td rowspan="3">Experiment 1</td>
+    <td>Row 1</td>
+  </tr>
+  <tr>
+    <td>Row 2</td>
+  </tr>
+  <tr>
+    <td>Row 3</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Experiment 2</td>
+    <td>Row 1</td>
+  </tr>
+  <tr>
+    <td>Row 2</td>
+  </tr>
+  <tr>
+    <td>Row 3</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Experiment 3</td>
     <td>Row 1</td>
   </tr>
   <tr>
