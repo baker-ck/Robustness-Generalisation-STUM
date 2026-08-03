@@ -57,6 +57,170 @@ STUM/
 - Horizons: 12
 - Criteria: validation loss
 
+
+<table>
+  <tr>
+    <th rowspan="2"></th>
+    <th rowspan="2">Model</th>
+    <th colspan="3">Dataset 1</th>
+    <th colspan="3">Dataset 2</th>
+  </tr>
+  <tr>
+    <th>Average MAE</th>
+    <th>RMSE</th>
+    <th>MAPE</th>
+    <th>Average MAE</th>
+    <th>RMSE</th>
+    <th>MAPE</th>
+  </tr>
+
+  <!-- Experiment 1 -->
+  <tr>
+    <td rowspan="3">Experiment 1</td>
+    <td>Model A</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  <tr>
+    <td>Model A+</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  <tr>
+    <td>$\Delta$</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+
+  <!-- Experiment 2 -->
+  <tr>
+    <td rowspan="3">Experiment 2</td>
+    <td>Model A</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  <tr>
+    <td>Model A+</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  <tr>
+    <td>$\Delta$</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+
+  <!-- Experiment 3 -->
+  <tr>
+    <td rowspan="3">Experiment 3</td>
+    <td>Model A</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  <tr>
+    <td>Model A+</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  <tr>
+    <td>$\Delta$</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+
+  <!-- Experiment 4 -->
+  <tr>
+    <td rowspan="3">Experiment 4</td>
+    <td>Model A</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  <tr>
+    <td>Model A+</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  <tr>
+    <td>$\Delta$</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+
+  <!-- Experiment 5 -->
+  <tr>
+    <td rowspan="3">Experiment 5</td>
+    <td>Model A</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  <tr>
+    <td>Model A+</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  <tr>
+    <td>$\Delta$</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+
+  <!-- Experiment 6 -->
+  <tr>
+    <td rowspan="3">Experiment 6</td>
+    <td>Model A</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  <tr>
+    <td>Model A+</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  <tr>
+    <td>$\Delta$</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+
+  <!-- Experiment 7 -->
+  <tr>
+    <td rowspan="3">Experiment 7</td>
+    <td>Model A</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  <tr>
+    <td>Model A+</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  <tr>
+    <td>$\Delta$</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+
+  <!-- Experiment 8 -->
+  <tr>
+    <td rowspan="3">Experiment 8</td>
+    <td>Model A</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  <tr>
+    <td>Model A+</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  <tr>
+    <td>$\Delta$</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+</table>
+
+
+
 <table>
   <tr>
     <th rowspan="2"></th>
