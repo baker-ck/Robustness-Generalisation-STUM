@@ -204,7 +204,7 @@ STUM/
   <!-- Experiment 8 -->
   <tr>
     <td rowspan="3">Experiment 8</td>
-    <td>USTGCN/td>
+    <td>USTGCN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
