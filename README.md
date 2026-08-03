@@ -1,20 +1,18 @@
 # Robustness-Generalisation-STUM
 
-## STUM Results
-
 This repository contains configurations for diverse STGNN models (DCRNN, DGCRN, GMAN, MegaCRN, MTGNN,STGODE and USTCGN) integrated with Spatio-Temporal Unitized Modelling (STUM). Test results are provided for comparison.
 
-### Implementation notes
-We use the publicly available STUM (https://github.com/RWLinno/STUM) codebase as our training framework. To ensure smooth execution, we applied minor engineering fixes (guarding optional wandb logging, correcting import paths, and fixing logging typos). The STGNNs were refactored into single model.py source files, called baselines, compatible with PyTorch. Data preprocessing, training and evaluation is handled independently by STUM.  
+## Implementation notes
+We use the publicly available STUM (https://github.com/RWLinno/STUM) codebase as our training framework. To ensure smooth execution, we applied minor engineering fixes (guarding optional wandb logging, correcting import paths, and fixing logging typos). Data preprocessing, training and evaluation is handled independently by STUM. 
 
 No changes were made to model architectures, loss functions, or optimisation procedures except:
 1. TensorFlow implementations were converted to PyTorch equivalents
 2. Multiple dependencies were resolved via model architecture refactoring into a single source file
-3. Wrappers were added to source files for STUM compatibility
-4. Engines were added for custom data-preprocessing for embeddings / training behaviour not provided by STUM
-5. Factory methods were created for each STGNN to configure models with correct parameters before training in STUM pipeline
+3. Custom wrappers (methods) were added to source files for STUM compatibility and inheritance
+4. Custom engines (classes) were added to STUM pipeline for embeddings / training behaviour not provided by STUM
+5. Factory methods added to source files for model instantiation with correct parameters before training in STUM pipeline
 
-### Repo structure
+## Repo structure
 ```
 STUM/
 ├── README.md
@@ -46,43 +44,42 @@ STUM/
 └── environment.yaml
 ```
 
-### Environment
+## Environment
 - Python: 3.10.0
 - Google Colab Pro+
 - Device: A1000 (Nvidia)
 - Conda environment: exported in `environment.yaml`
 - Python dependencies: listed in `requirements.txt`
 
-### Results
+## Results
 - Horizons: 12
 - Criteria: validation loss
-
 
 <table>
   <tr>
     <th rowspan="2"></th>
     <th rowspan="2">Model</th>
-    <th colspan="3">Dataset 1</th>
-    <th colspan="3">Dataset 2</th>
+    <th colspan="3">METR-LA</th>
+    <th colspan="3">PeMS-BAY</th>
   </tr>
   <tr>
     <th>Average MAE</th>
-    <th>RMSE</th>
-    <th>MAPE</th>
+    <th>Average RMSE</th>
+    <th>Averag eMAPE</th>
     <th>Average MAE</th>
-    <th>RMSE</th>
-    <th>MAPE</th>
+    <th>Average RMSE</th>
+    <th>Average MAPE</th>
   </tr>
 
   <!-- Experiment 1 -->
   <tr>
     <td rowspan="3">Experiment 1</td>
-    <td>Model A</td>
+    <td>STGCN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>Model A+</td>
+    <td>STUM+STGCN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
@@ -95,12 +92,12 @@ STUM/
   <!-- Experiment 2 -->
   <tr>
     <td rowspan="3">Experiment 2</td>
-    <td>Model A</td>
+    <td>DCRNN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>Model A+</td>
+    <td>STUM+DCRNN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
@@ -113,12 +110,12 @@ STUM/
   <!-- Experiment 3 -->
   <tr>
     <td rowspan="3">Experiment 3</td>
-    <td>Model A</td>
+    <td>DGCRN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>Model A+</td>
+    <td>STUM+DGCRN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
@@ -131,12 +128,12 @@ STUM/
   <!-- Experiment 4 -->
   <tr>
     <td rowspan="3">Experiment 4</td>
-    <td>Model A</td>
+    <td>GMAN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>Model A+</td>
+    <td>STUM+GMAN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
@@ -149,12 +146,12 @@ STUM/
   <!-- Experiment 5 -->
   <tr>
     <td rowspan="3">Experiment 5</td>
-    <td>Model A</td>
+    <td>MegaCRN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>Model A+</td>
+    <td>STUM+MegaCRN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
@@ -167,12 +164,12 @@ STUM/
   <!-- Experiment 6 -->
   <tr>
     <td rowspan="3">Experiment 6</td>
-    <td>Model A</td>
+    <td>MTGNN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>Model A+</td>
+    <td>STUM+MTGNN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
@@ -185,12 +182,12 @@ STUM/
   <!-- Experiment 7 -->
   <tr>
     <td rowspan="3">Experiment 7</td>
-    <td>Model A</td>
+    <td>STGODE</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>Model A+</td>
+    <td>STUM+STGODE</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
@@ -203,12 +200,12 @@ STUM/
   <!-- Experiment 8 -->
   <tr>
     <td rowspan="3">Experiment 8</td>
-    <td>Model A</td>
+    <td>USTGCN/td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>Model A+</td>
+    <td>STUM+USTGCN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
