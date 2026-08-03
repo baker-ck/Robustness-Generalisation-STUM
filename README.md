@@ -7,10 +7,14 @@ We use the publicly available STUM (https://github.com/RWLinno/STUM) codebase as
 
 No changes were made to model architectures, loss functions, or optimisation procedures except:
 1. TensorFlow implementations were converted to PyTorch equivalents
-2. Multiple dependencies were resolved via model architecture refactoring into a single source file
-3. Custom wrappers (methods) were added to source files for STUM compatibility and inheritance
-4. Custom engines (classes) were added to STUM pipeline for embeddings / training behaviour not provided by STUM
-5. Factory methods added to source files for model instantiation with correct parameters before training in STUM pipeline
+2. Dimensions of tensors were reshaped for compatibility with STUM pipeline for METR-LA and PeMS-BAY data loader 
+3. Multiple dependencies were resolved via model architecture refactoring into a single source file
+4. Custom wrappers (classes) were added to source files for STUM compatibility and inheritance, comprising
+   - a constructor, and
+   - a forward(x, label) signature 
+5. Custom engines (classes) were added to STUM pipeline for embeddings / necessary training behaviour not provided by STUM
+6. Factory methods added to source files for model instantiation with correct parameters before training in STUM pipeline, comprising an
+   - a get_engine_and_model(args) signature
 
 ## Repo structure
 ```
