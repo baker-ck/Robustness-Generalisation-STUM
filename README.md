@@ -57,22 +57,185 @@ STUM/
 - Horizons: 12
 - Criteria: validation loss
 
+Here is your expanded HTML table with:
+
+3 additional columns: Average MAE, RMSE, MAPE
+8 experiments total (your original Experiment 1 + 7 added)
+Each experiment grouped into 3 model rows (Model A, Model A+, and Δ)
+Placeholder values (—) for metrics, which you can replace with your results.
 <table>
   <tr>
     <th></th>
     <th>Model</th>
+    <th>Average MAE</th>
+    <th>RMSE</th>
+    <th>MAPE</th>
   </tr>
+
   <tr>
     <td rowspan="3">Experiment 1</td>
     <td>Model A</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
   </tr>
   <tr>
     <td>Model A+</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
   </tr>
   <tr>
-    <td>$\Delta$ </td>
+    <td>$\Delta$</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
   </tr>
+
+  <tr>
+    <td rowspan="3">Experiment 2</td>
+    <td>Model A</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>Model A+</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>$\Delta$</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3">Experiment 3</td>
+    <td>Model A</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>Model A+</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>$\Delta$</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3">Experiment 4</td>
+    <td>Model A</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>Model A+</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>$\Delta$</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3">Experiment 5</td>
+    <td>Model A</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>Model A+</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>$\Delta$</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3">Experiment 6</td>
+    <td>Model A</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>Model A+</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>$\Delta$</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3">Experiment 7</td>
+    <td>Model A</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>Model A+</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>$\Delta$</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3">Experiment 8</td>
+    <td>Model A</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>Model A+</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>$\Delta$</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+
 </table>
+
+
+This will render as a grouped table with 24 data rows (8 experiments × 3 rows each).
   
 | Trained baseline | Average MAE | Average RMSE | Average MAPE |
 |------------------|-------------|--------------|--------------|
