@@ -78,7 +78,7 @@ STUM/
 |------------------|-------------|--------------|--------------|
 | stgcn            |   XX.XXXX   |   XX.XXXX    |    XX.XXXX   |
 | stum+stgcn       |   XX.XXXX   |   XX.XXXX    |    XX.XXXX   |
-| stgcn            |   XX.XXXX   |   XX.XXXX    |    XX.XXXX   |
+| $\Delta$         |   XX.XXXX   |   XX.XXXX    |    XX.XXXX   |
 
 | dcrnn            |   XX.XXXX   |   XX.XXXX    |    XX.XXXX   |
 | dgcrn            |   XX.XXXX   |   XX.XXXX    |    XX.XXXX   |
