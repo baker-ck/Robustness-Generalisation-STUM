@@ -48,28 +48,71 @@ STUM/
 
 ### Environment
 - Python: 3.10.0
-- Device: MPS (Apple Silicon)
+- Google Colab Pro+
+- Device: A1000 (Nvidia)
 - Conda environment: exported in `environment.yaml`
 - Python dependencies: listed in `requirements.txt`
 
 ### Results
-- Dataset: PEMS07/2017
 - Horizons: 12
 - Criteria: validation loss
 
-Here is your expanded HTML table with:
+<table>
+  <tr>
+    <th rowspan="2"></th>
+    <th rowspan="2">Model</th>
+    <th colspan="3">METR-LA</th>
+    <th colspan="3">PeMS-BAY</th>
+  </tr>
+  <tr>
+    <th>Average MAE</th>
+    <th>RMSE</th>
+    <th>MAPE</th>
+    <th>Average MAE</th>
+    <th>RMSE</th>
+    <th>MAPE</th>
+  </tr>
 
-3 additional columns: Average MAE, RMSE, MAPE
-8 experiments total (your original Experiment 1 + 7 added)
-Each experiment grouped into 3 model rows (Model A, Model A+, and Δ)
-Placeholder values (—) for metrics, which you can replace with your results.
+  <tr>
+    <td rowspan="3">Experiment 1</td>
+    <td>Model A</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>Model A+</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td>$\Delta$</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+  </tr>
+
+</table>
+
+
+
 <table>
   <tr>
     <th></th>
     <th>Model</th>
     <th>Average MAE</th>
-    <th>RMSE</th>
-    <th>MAPE</th>
+    <th>Average RMSE</th>
+    <th>Average MAPE</th>
   </tr>
 
   <tr>
