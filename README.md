@@ -57,7 +57,11 @@ STUM/
 
 ## Results
 - Horizons: 12
-- Criteria: validation loss
+- Batch size: 64
+- Input dim: 3
+- Output dim: 1
+
+Criteria: validation loss
 
 <table>
   <tr>
@@ -84,7 +88,7 @@ STUM/
   </tr>
   <tr>
     <td>STUM+STGCN</td>
-    <td>—</td><td>—</td><td>—</td>
+    <td>3.1107</td><td>6.2288</td><td>0.0866</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
