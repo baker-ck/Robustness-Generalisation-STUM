@@ -73,7 +73,7 @@ Criteria: validation loss
   <tr>
     <th>Average MAE</th>
     <th>Average RMSE</th>
-    <th>Averag MAPE</th>
+    <th>Average MAPE</th>
     <th>Average MAE</th>
     <th>Average RMSE</th>
     <th>Average MAPE</th>
@@ -83,12 +83,12 @@ Criteria: validation loss
   <tr>
     <td rowspan="3">Experiment 1</td>
     <td>STGCN</td>
-    <td>—</td><td>—</td><td>—</td>
+    <td>3.1107</td><td>6.2288</td><td>0.0866</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
     <td>STUM+STGCN</td>
-    <td>3.1107</td><td>6.2288</td><td>0.0866</td>
+    <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
