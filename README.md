@@ -128,7 +128,7 @@ Criteria: validation loss
 
   <!-- Experiment 3 -->
   <tr>
-    <td rowspan="3">Experiment 3</td>
+    <td rowspan="4">Experiment 3</td>
     <td>DGCRN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -151,7 +151,7 @@ Criteria: validation loss
 
   <!-- Experiment 4 -->
   <tr>
-    <td rowspan="3">Experiment 4</td>
+    <td rowspan="4">Experiment 4</td>
     <td>GMAN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -174,7 +174,7 @@ Criteria: validation loss
 
   <!-- Experiment 5 -->
   <tr>
-    <td rowspan="3">Experiment 5</td>
+    <td rowspan="4">Experiment 5</td>
     <td>MegaCRN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -197,7 +197,7 @@ Criteria: validation loss
 
   <!-- Experiment 6 -->
   <tr>
-    <td rowspan="3">Experiment 6</td>
+    <td rowspan="4">Experiment 6</td>
     <td>MTGNN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -220,7 +220,7 @@ Criteria: validation loss
 
   <!-- Experiment 7 -->
   <tr>
-    <td rowspan="3">Experiment 7</td>
+    <td rowspan="4">Experiment 7</td>
     <td>STGODE</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -243,7 +243,7 @@ Criteria: validation loss
 
   <!-- Experiment 8 -->
   <tr>
-    <td rowspan="3">Experiment 8</td>
+    <td rowspan="4">Experiment 8</td>
     <td>USTGCN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
