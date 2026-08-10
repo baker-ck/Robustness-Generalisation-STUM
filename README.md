@@ -85,12 +85,12 @@ Criteria: validation loss
     <td rowspan="4">Experiment 1</td>
     <td>STGCN</td>
     <td>3.1154</td><td>6.2067</td><td>0.0869</td>
-    <td>—</td><td>—</td><td>—</td>
+    <td>1.6830</td><td>3.6650</td><td>0.0382</td>
   </tr>
   <tr>
     <td>STUM+STGCN<br>(frozen = true)</td>
     <td>10.1510</td><td>13.1192</td><td>0.2185</td>
-    <td>—</td><td>—</td><td>—</td>
+    <td>-</td><td>-</td><td>-</td>
   </tr>
     <tr>
     <td>STUM+STGCN<br>(frozen = false)</td>
