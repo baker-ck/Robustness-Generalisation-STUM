@@ -87,7 +87,7 @@ Criteria: validation loss
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>STUM+STGCN (with freezing)</td>
+    <td>STUM+STGCN <br>(with freezing)</td>
     <td>14.7943</td><td>18.6444</td><td>0.3637</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
