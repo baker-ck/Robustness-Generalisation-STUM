@@ -81,7 +81,7 @@ Criteria: validation loss
 
   <!-- Experiment 1 -->
   <tr>
-    <td rowspan="3">Experiment 1</td>
+    <td rowspan="4">Experiment 1</td>
     <td>STGCN</td>
     <td>3.1107</td><td>6.2288</td><td>0.0866</td>
     <td>—</td><td>—</td><td>—</td>
