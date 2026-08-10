@@ -70,6 +70,18 @@ Criteria: validation loss
     <th colspan="3">METR-LA</th>
     <th colspan="3">PeMS-BAY</th>
   </tr>
+
+  <colgroup>
+    <col style="width: 15%;">
+    <col style="width: 30%;">  <!-- Model column -->
+    <col style="width: 9%;">
+    <col style="width: 9%;">
+    <col style="width: 9%;">
+    <col style="width: 9%;">
+    <col style="width: 9%;">
+    <col style="width: 9%;">
+  </colgroup>
+   
   <tr>
     <th>Average MAE</th>
     <th>Average RMSE</th>
