@@ -134,7 +134,12 @@ Criteria: validation loss
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>STUM+DGCRN</td>
+    <td>STUM+DGCRN<br>(frozen = true)</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+    <tr>
+    <td>STUM+DGCRN<br>(frozen = false)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
@@ -152,7 +157,12 @@ Criteria: validation loss
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>STUM+GMAN</td>
+    <td>STUM+GMAN<br>(frozen = true)</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+    <tr>
+    <td>STUM+GMAN<br>(frozen = false)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
@@ -170,7 +180,12 @@ Criteria: validation loss
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>STUM+MegaCRN</td>
+    <td>STUM+MegaCRN<br>(frozen = true)</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+    <tr>
+    <td>STUM+MegaCRN<br>(frozen = false)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
@@ -188,7 +203,12 @@ Criteria: validation loss
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>STUM+MTGNN</td>
+    <td>STUM+MTGNN<br>(frozen = true)</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+    <tr>
+    <td>STUM+MTGNN<br>(frozen = false)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
@@ -206,7 +226,12 @@ Criteria: validation loss
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>STUM+STGODE</td>
+    <td>STUM+STGODE<br>(frozen = true)</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+    <tr>
+    <td>STUM+STGODE<br>(frozen = false)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
@@ -224,7 +249,12 @@ Criteria: validation loss
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>STUM+USTGCN</td>
+    <td>STUM+USTGCN<br>(frozen = true)</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+    <tr>
+    <td>STUM+USTGCN<br>(frozen = false)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
