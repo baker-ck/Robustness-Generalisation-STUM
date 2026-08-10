@@ -87,12 +87,12 @@ Criteria: validation loss
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>STUM+STGCN <br>(with freezing)</td>
+    <td>STUM+STGCN (frozen = true)</td>
     <td>14.7943</td><td>18.6444</td><td>0.3637</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
     <tr>
-    <td>STUM+STGCN (without freezing)</td>
+    <td>STUM+STGCN (frozen = false)</td>
     <td>14.7943</td><td>18.6444</td><td>0.3637</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
@@ -104,13 +104,18 @@ Criteria: validation loss
 
   <!-- Experiment 2 -->
   <tr>
-    <td rowspan="3">Experiment 2</td>
+    <td rowspan="4">Experiment 2</td>
     <td>DCRNN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>STUM+DCRNN</td>
+    <td>STUM+DCRNN (frozen = true)</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+    <tr>
+    <td>STUM+DCRNN (frozen = false)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
