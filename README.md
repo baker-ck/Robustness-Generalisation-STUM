@@ -70,17 +70,6 @@ Criteria: validation loss
     <th colspan="3">METR-LA</th>
     <th colspan="3">PeMS-BAY</th>
   </tr>
-
-  <colgroup>
-    <col style="width: 15%;">
-    <col style="width: 30%;">  <!-- Model column -->
-    <col style="width: 9%;">
-    <col style="width: 9%;">
-    <col style="width: 9%;">
-    <col style="width: 9%;">
-    <col style="width: 9%;">
-    <col style="width: 9%;">
-  </colgroup>
    
   <tr>
     <th>Average MAE</th>
@@ -99,12 +88,12 @@ Criteria: validation loss
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>STUM+STGCN (frozen = true)</td>
+    <td>STUM+STGCN<br>(frozen = true)</td>
     <td>14.7943</td><td>18.6444</td><td>0.3637</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
     <tr>
-    <td>STUM+STGCN (frozen = false)</td>
+    <td>STUM+STGCN<br>(frozen = false)</td>
     <td>14.7943</td><td>18.6444</td><td>0.3637</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
@@ -122,12 +111,12 @@ Criteria: validation loss
     <td>—</td><td>—</td><td>—</td>
   </tr>
   <tr>
-    <td>STUM+DCRNN (frozen = true)</td>
+    <td>STUM+DCRNN<br>(frozen = true)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
     <tr>
-    <td>STUM+DCRNN (frozen = false)</td>
+    <td>STUM+DCRNN<br>(frozen = false)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
