@@ -90,12 +90,12 @@ Criteria: validation loss
   <tr>
     <td>STUM+STGCN<br>(frozen = true)</td>
     <td>10.1510</td><td>13.1192</td><td>0.2185</td>
-    <td>-</td><td>-</td><td>-</td>
+    <td>5.1199</td><td>6.7907</td><td>0.0938</td>
   </tr>
     <tr>
     <td>STUM+STGCN<br>(frozen = false)</td>
     <td>6.4808</td><td>8.9324</td><td>0.1494</td>
-    <td>—</td><td>—</td><td>—</td>
+    <td>2.8957</td><td>4.4890</td><td>0.0581</td>
   </tr>
   <tr>
     <td>$\Delta$</td>
