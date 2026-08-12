@@ -53,36 +53,7 @@ STUM/
 
 ## Results
 
-<style>
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-
-  th, td {
-    padding: 8px;
-    text-align: center;
-    border: 1px solid #ddd;
-  }
-
-  th {
-    background-color: #2f5597;
-    color: white;
-  }
-
-  /* Alternating row colours */
-  tbody tr:nth-child(odd) {
-    background-color: #f2f6fc;
-  }
-
-  tbody tr:nth-child(even) {
-    background-color: #ffffff;
-  }
-</style>
-
-
 <table>
-  <thead>
   <tr>
     <th rowspan="2">Model</th>
     <th colspan="3">PeMS03</th>
@@ -113,11 +84,9 @@ STUM/
     <th>Average MSE</th>
     <th>Average MAPE</th>
   </tr>
-  </thead>
   
-  <tbody>
   <!-- Experiment 1 -->
-  <tr>
+  <tr style="background-color:#f5f7fa;">
     <td>AGCRN</td>
     <td>17.1977</td><td>29.1553</td><td>0.1950</td>
     <td>20.7230</td><td>32.2432</td><td>0.1507</td>
@@ -217,7 +186,7 @@ STUM/
   </tr>
 
   <!-- Experiment 6 -->
-  <tr>
+  <tr style="background-color:#f5f7fa;">
     <td>STGCN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -226,7 +195,7 @@ STUM/
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
-    <tr>
+  <tr style="background-color:#f5f7fa;">
     <td>STGCN (reference)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -235,7 +204,6 @@ STUM/
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
-  </tbody>
 </table>
 
 
