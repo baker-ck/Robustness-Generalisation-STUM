@@ -82,18 +82,18 @@ STUM/
 
   <!-- Experiment 1 -->
   <tr>
-    <td>AGCRN (this work) </td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
+    <td>AGCRN (this work)</td>
+    <td>17.1977</td><td>29.1553</td><td>0.1950</td>
+    <td>20.7230</td><td>32.2432</td><td>0.1507</td>
+    <td>24.1579</td><td>37.2138</td><td>0.1113</td>
+    <td>16.4761</td><td>25.5645</td><td>0.1105</td>
+    <td>1.6795</td><td>3.6302</td><td>0.0379</td>
+    <td>3.1107</td><td>6.2288</td><td>0.0866</td>
   </tr>
     <tr>
-    <td>AGCRN (original study)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
+    <td>AGCRN (reference)</td>
+    <td>16.69</td><td>27.60</td><td>16.44%</td>
+    <td>20.74</td><td>32.61</td><td>14.57%</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -102,7 +102,16 @@ STUM/
 
   <!-- Experiment 2 -->
   <tr>
-    <td>D2STGNN</td>
+    <td>D2STGNN (this work)</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+   <tr>
+    <td>D2STGNN (reference)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -113,7 +122,17 @@ STUM/
 
   <!-- Experiment 3 -->
   <tr>
-    <td>GWNET</td>
+    <td>GWNET(this work)</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  
+    <tr>
+    <td>GWNET(reference)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -124,7 +143,17 @@ STUM/
 
   <!-- Experiment 4 -->
   <tr>
-    <td>STID</td>
+    <td>STID (this work)</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  
+    <tr>
+    <td>STID (reference)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -135,7 +164,17 @@ STUM/
 
   <!-- Experiment 5 -->
   <tr>
-    <td>STAE</td>
+    <td>STAE (this work)</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+
+    <tr>
+    <td>STAE (reference)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -146,7 +185,16 @@ STUM/
 
   <!-- Experiment 6 -->
   <tr>
-    <td>STGCN</td>
+    <td>STGCN (this work)</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+    <tr>
+    <td>STGCN (this reference)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
