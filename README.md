@@ -53,7 +53,36 @@ STUM/
 
 ## Results
 
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #2f5597;
+    color: white;
+  }
+
+  /* Alternating row colours */
+  tbody tr:nth-child(odd) {
+    background-color: #f2f6fc;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+</style>
+
+
 <table>
+  <thead>
   <tr>
     <th rowspan="2">Model</th>
     <th colspan="3">PeMS03</th>
@@ -84,7 +113,9 @@ STUM/
     <th>Average MSE</th>
     <th>Average MAPE</th>
   </tr>
-
+  </thead>
+  
+  <tbody>
   <!-- Experiment 1 -->
   <tr>
     <td>AGCRN</td>
@@ -204,6 +235,7 @@ STUM/
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
+  </tbody>
 </table>
 
 
