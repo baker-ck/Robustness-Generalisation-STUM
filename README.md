@@ -82,7 +82,16 @@ STUM/
 
   <!-- Experiment 1 -->
   <tr>
-    <td>AGCRN</td>
+    <td>AGCRN (this work) </td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+    <tr>
+    <td>AGCRN (original study)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
