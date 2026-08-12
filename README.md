@@ -64,7 +64,7 @@ STUM/
     <th colspan="3">METR-LA</th>
   </tr>
 
-  <tr>
+  <tr style="background-color:#ffffff;">
     <th>Average MAE</th>
     <th>Average MSE</th>
     <th>Average MAPE</th>
