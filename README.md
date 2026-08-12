@@ -3,8 +3,7 @@
 This repository contains configurations checkpoints for diverse STGNN models (AGCRN, D2STGNN, GWNET, STAE, STID and STGCN) reproduced  with Spatio-Temporal Unitized Modelling (STUM). Test results are provided for comparison.
 
 ## Implementation notes
-We use the publicly available STUM (https://github.com/RWLinno/STUM) codebase as our training framework. To ensure smooth execution, we applied minor engineering fixes (correcting import paths, guarding ./save paths and fixing logging typos). No changes were made to model architectures, loss functions, or optimisation procedures.
-
+We use the publicly available STUM (https://github.com/RWLinno/STUM) codebase as our training framework. To ensure smooth execution, we applied minor engineering fixes (correcting import paths, guarding ./save paths and fixing logging typos) to the main.py executable. No changes were made to model architectures, loss functions, or optimisation procedures.
 
 ## Repo structure
 ```
@@ -31,7 +30,7 @@ STUM/
 |   └── stid.ipynb
 |   └── stgcn.ipynb
 ├── stum_patches/
-│   └── non_algorithmic_fixes.diff
+│   └── main.py
 └── requirements/
 |   └── acgrn_requirements.txt
 |   └── d2stgnn_requirements.txt
