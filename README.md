@@ -21,7 +21,7 @@ STUM/
 │   │   ├── pre_trained_d2stgnn_pems03_model.pt
 │   │   ├── pre_trained_d2stgnn_pems04_model.pt
 │   │   ├── pre_trained_d2stgnn_pems07_model.pt
-│   │   ├──  pre_trained_d2stgnn_model.pt
+│   │   ├── pre_trained_d2stgnn_model.pt
 │   │   ├── pre_trained_d2stgnn_pemsbay_model.pt
 │   │   └── pre_trained_d2stgnn_metrla_model.pt
 │   ├── gwnet/
@@ -142,9 +142,9 @@ STUM/
   <tr>
     <td>D2STGNN (reference)</td>
     <td>15.76</td><td>26.45</td><td>14.89%</td>
-    <td>22.85</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
+    <td>22.85</td><td>35.23</td><td>17.33%</td>
+    <td>21.2</td><td>34.09</td><td>9.18%</td>
+    <td>15.72</td><td>24.67</td><td>11.46%</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
