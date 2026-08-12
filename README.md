@@ -82,7 +82,7 @@ STUM/
 
   <!-- Experiment 1 -->
   <tr>
-    <td>AGCRN (this work)</td>
+    <td>AGCRN</td>
     <td>17.1977</td><td>29.1553</td><td>0.1950</td>
     <td>20.7230</td><td>32.2432</td><td>0.1507</td>
     <td>24.1579</td><td>37.2138</td><td>0.1113</td>
@@ -102,7 +102,7 @@ STUM/
 
   <!-- Experiment 2 -->
   <tr>
-    <td>D2STGNN (this work)</td>
+    <td>D2STGNN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -122,7 +122,7 @@ STUM/
 
   <!-- Experiment 3 -->
   <tr>
-    <td>GWNET(this work)</td>
+    <td>GWNET</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -132,7 +132,7 @@ STUM/
   </tr>
   
     <tr>
-    <td>GWNET(reference)</td>
+    <td>GWNET (reference)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -143,7 +143,7 @@ STUM/
 
   <!-- Experiment 4 -->
   <tr>
-    <td>STID (this work)</td>
+    <td>STID</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -164,7 +164,7 @@ STUM/
 
   <!-- Experiment 5 -->
   <tr>
-    <td>STAE (this work)</td>
+    <td>STAE</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -185,7 +185,7 @@ STUM/
 
   <!-- Experiment 6 -->
   <tr>
-    <td>STGCN (this work)</td>
+    <td>STGCN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
