@@ -41,7 +41,6 @@ STUM/
 
 <table>
   <tr>
-    <th rowspan="2">Experiment #</th>
     <th rowspan="2">Model</th>
     <th colspan="3">PEMS03</th>
     <th colspan="3">PEMS04</th>
@@ -74,8 +73,7 @@ STUM/
 
   <!-- Experiment 1 -->
   <tr>
-    <td>Experiment 1</td>
-    <td>Model 1</td>
+    <td>AGCRN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -86,8 +84,7 @@ STUM/
 
   <!-- Experiment 2 -->
   <tr>
-    <td>Experiment 2</td>
-    <td>Model 2</td>
+    <td>D2STGNN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -98,8 +95,7 @@ STUM/
 
   <!-- Experiment 3 -->
   <tr>
-    <td>Experiment 3</td>
-    <td>Model 3</td>
+    <td>GWNET</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -110,8 +106,7 @@ STUM/
 
   <!-- Experiment 4 -->
   <tr>
-    <td>Experiment 4</td>
-    <td>Model 4</td>
+    <td>STID</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -122,8 +117,7 @@ STUM/
 
   <!-- Experiment 5 -->
   <tr>
-    <td>Experiment 5</td>
-    <td>Model 5</td>
+    <td>STAE</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -134,224 +128,20 @@ STUM/
 
   <!-- Experiment 6 -->
   <tr>
-    <td>Experiment 6</td>
-    <td>Model 6</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-</table>
-
-
-
-<table>
-  <tr>
-    <th rowspan="2"></th>
-    <th rowspan="2">Model</th>
-    <th colspan="3">METR-LA</th>
-    <th colspan="3">PeMS-BAY</th>
-  </tr>
-   
-  <tr>
-    <th>Average MAE</th>
-    <th>Average RMSE</th>
-    <th>Average MAPE</th>
-    <th>Average MAE</th>
-    <th>Average RMSE</th>
-    <th>Average MAPE</th>
-  </tr>
-
-  <!-- Experiment 1 -->
-  <tr>
-    <td rowspan="4">Experiment 1</td>
     <td>STGCN</td>
-    <td>3.1154</td><td>6.2067</td><td>0.0869</td>
-    <td>1.6830</td><td>3.6650</td><td>0.0382</td>
-  </tr>
-  <tr>
-    <td>STUM+STGCN<br>(frozen = true)</td>
-    <td>10.1510</td><td>13.1192</td><td>0.2185</td>
-    <td>5.1199</td><td>6.7907</td><td>0.0938</td>
-  </tr>
-    <tr>
-    <td>STUM+STGCN<br>(frozen = false)</td>
-    <td>6.4808</td><td>8.9324</td><td>0.1494</td>
-    <td>2.8957</td><td>4.4890</td><td>0.0581</td>
-  </tr>
-  <tr>
-    <td>$\Delta$</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
-  </tr>
-
-  <!-- Experiment 2 -->
-  <tr>
-    <td rowspan="4">Experiment 2</td>
-    <td>DCRNN</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
-  </tr>
-  <tr>
-    <td>STUM+DCRNN<br>(frozen = true)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-    <tr>
-    <td>STUM+DCRNN<br>(frozen = false)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-  <tr>
-    <td>$\Delta$</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-
-  <!-- Experiment 3 -->
-  <tr>
-    <td rowspan="4">Experiment 3</td>
-    <td>DGCRN</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-  <tr>
-    <td>STUM+DGCRN<br>(frozen = true)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-    <tr>
-    <td>STUM+DGCRN<br>(frozen = false)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-  <tr>
-    <td>$\Delta$</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-
-  <!-- Experiment 4 -->
-  <tr>
-    <td rowspan="4">Experiment 4</td>
-    <td>GMAN</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-  <tr>
-    <td>STUM+GMAN<br>(frozen = true)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-    <tr>
-    <td>STUM+GMAN<br>(frozen = false)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-  <tr>
-    <td>$\Delta$</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-
-  <!-- Experiment 5 -->
-  <tr>
-    <td rowspan="4">Experiment 5</td>
-    <td>MegaCRN</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-  <tr>
-    <td>STUM+MegaCRN<br>(frozen = true)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-    <tr>
-    <td>STUM+MegaCRN<br>(frozen = false)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-  <tr>
-    <td>$\Delta$</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-
-  <!-- Experiment 6 -->
-  <tr>
-    <td rowspan="4">Experiment 6</td>
-    <td>MTGNN</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-  <tr>
-    <td>STUM+MTGNN<br>(frozen = true)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-    <tr>
-    <td>STUM+MTGNN<br>(frozen = false)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-  <tr>
-    <td>$\Delta$</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-
-  <!-- Experiment 7 -->
-  <tr>
-    <td rowspan="4">Experiment 7</td>
-    <td>STGODE</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-  <tr>
-    <td>STUM+STGODE<br>(frozen = true)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-    <tr>
-    <td>STUM+STGODE<br>(frozen = false)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-  <tr>
-    <td>$\Delta$</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-
-  <!-- Experiment 8 -->
-  <tr>
-    <td rowspan="4">Experiment 8</td>
-    <td>USTGCN</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-  <tr>
-    <td>STUM+USTGCN<br>(frozen = true)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-    <tr>
-    <td>STUM+USTGCN<br>(frozen = false)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-  <tr>
-    <td>$\Delta$</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
 </table>
+
 
 ## Reference
 
-The implementation of STUM is based on the IEEE T-ITS 2025 paper “Cross Space and Time: A Spatio-Temporal Unitized Model for Traffic Flow Forecasting” (https://arxiv.org/pdf/2411.09251), with the following citation:
+The implementation of STUM is based on the IEEE T-ITS 2025 paper “Cross Space and Time: A Spatio-Temporal Unitized Model for Traffic Flow Forecasting”, with the following citation:
 
 ```bibtex
 @article{ruan2025cross,
