@@ -63,8 +63,7 @@ STUM/
     <th colspan="3">PeMS-BAY</th>
     <th colspan="3">METR-LA</th>
   </tr>
-
-  <tr style="background-color:#ffffff;">
+  <tr>
     <th>Average MAE</th>
     <th>Average MSE</th>
     <th>Average MAPE</th>
@@ -95,7 +94,7 @@ STUM/
     <td>1.6795</td><td>3.6302</td><td>0.0379</td>
     <td>3.1107</td><td>6.2288</td><td>0.0866</td>
   </tr>
-  <tr>
+  <tr style="background-color:#ffffff;">
     <td>AGCRN (reference)</td>
     <td>16.69</td><td>27.60</td><td>16.44%</td>
     <td>20.74</td><td>32.61</td><td>14.57%</td>
