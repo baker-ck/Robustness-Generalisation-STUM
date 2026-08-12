@@ -18,15 +18,40 @@ STUM/
 |       └── pre_trained_agcrn_pemsbay_model.pt
 |       └── pre_trained_agcrn_metrla_model.pt
 |   └── d2stgnn/
+|       └──pre_trained_d2stgnn_pems03_model.pt
+|       └──pre_trained_d2stgnn_pems04_model.pt
+|       └──pre_trained_d2stgnn_pems07_model.pt
+|       └──pre_trained_d2stgnn_model.pt
+|       └──pre_trained_d2stgnn_pemsbay_model.pt
+|       └──pre_trained_d2stgnn_metrla_model.pt
 |   └── gwnet/
+|       └──pre_trained_gwnet_pems03_model.pt
+|       └──pre_trained_gwnet_pems04_model.pt
+|       └──pre_trained_gwnet_pems07_model.pt
+|       └──pre_trained_gwnet_pems08_model.pt
+|       └──pre_trained_gwnet_pemsbay_model.pt
+|       └──pre_trained_gwnet_metrla_model.pt
 |   └── stae/
+|       └──pre_trained_stae_pems03_model.pt
+|       └──pre_trained_stae_pems04_model.pt
+|       └──pre_trained_stae_pems07_model.pt
+|       └──pre_trained_stae_pems08_model.pt
+|       └──pre_trained_stae_pemsbay_model.pt
+|       └──pre_trained_stae_metrla_model.pt
 |   └── stid/
+|       └──pre_trained_stid_pems03_model.pt
+|       └──pre_trained_stid_pems04_model.pt
+|       └──pre_trained_stid_pems07_model.pt
+|       └──pre_trained_stid_pems08_model.pt
+|       └──pre_trained_stid_pemsbay_model.pt
+|       └──pre_trained_stid_metrla_model.pt
 |   └── stcgn/
-|   └── pre_trained_d2stgnn_model.pt
-|   └── pre_trained_gwnet_model.pt
-|   └── pre_trained_stae_model.pt
-|   └── pre_trained_stid_model.pt
-|   └── pre_trained_stgcn_model.pt
+|       └──pre_trained_stgcn_pems03_model.pt
+|       └──pre_trained_stgcn_pems04_model.pt
+|       └──pre_trained_stgcn_pems07_model.pt
+|       └──pre_trained_stgcn_pems08_model.pt
+|       └──pre_trained_stgcn_pemsbay_model.pt
+|       └──pre_trained_stgcn_metrla_model.pt
 ├── baseline_training_notebooks/
 |   └── acgrn.ipynb
 |   └── d2stgnn.ipynb
@@ -116,8 +141,8 @@ STUM/
   </tr>
   <tr>
     <td>D2STGNN (reference)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
+    <td>15.76</td><td>26.45</td><td>14.89%</td>
+    <td>22.85</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
