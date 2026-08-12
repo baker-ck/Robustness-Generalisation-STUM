@@ -85,7 +85,7 @@ STUM/
   </tr>
   
   <!-- Experiment 1 -->
-  <tr style="background-color:#f5f7fa;">
+  <tr>
     <td>AGCRN</td>
     <td>17.1977</td><td>29.1553</td><td>0.1950</td>
     <td>20.7230</td><td>32.2432</td><td>0.1507</td>
@@ -94,7 +94,7 @@ STUM/
     <td>1.6795</td><td>3.6302</td><td>0.0379</td>
     <td>3.1107</td><td>6.2288</td><td>0.0866</td>
   </tr>
-  <tr style="background-color:#ffffff;">
+  <tr>
     <td>AGCRN (reference)</td>
     <td>16.69</td><td>27.60</td><td>16.44%</td>
     <td>20.74</td><td>32.61</td><td>14.57%</td>
