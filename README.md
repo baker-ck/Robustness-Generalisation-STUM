@@ -196,7 +196,7 @@ STUM/
     <td>—</td><td>—</td><td>—</td>
   </tr>
     <tr>
-    <td>STGCN (this reference)</td>
+    <td>STGCN (reference)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
