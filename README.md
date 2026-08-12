@@ -94,8 +94,8 @@ STUM/
     <td>AGCRN (reference)</td>
     <td>16.69</td><td>27.60</td><td>16.44%</td>
     <td>20.74</td><td>32.61</td><td>14.57%</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
+    <td>23.29</td><td>36.18</td><td>10.07%</td>
+    <td>15.3</td><td>24.51</td><td>10.29%</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
