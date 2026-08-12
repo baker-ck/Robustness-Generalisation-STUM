@@ -17,6 +17,11 @@ STUM/
 |       └── pre_trained_agcrn_pems08_model.pt
 |       └── pre_trained_agcrn_pemsbay_model.pt
 |       └── pre_trained_agcrn_metrla_model.pt
+|   └── d2stgnn/
+|   └── gwnet/
+|   └── stae/
+|   └── stid/
+|   └── stcgn/
 |   └── pre_trained_d2stgnn_model.pt
 |   └── pre_trained_gwnet_model.pt
 |   └── pre_trained_stae_model.pt
@@ -130,7 +135,6 @@ STUM/
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
-  
   <tr>
     <td>GWNET (reference)</td>
     <td>—</td><td>—</td><td>—</td>
@@ -151,7 +155,6 @@ STUM/
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
-  
   <tr>
     <td>STID (reference)</td>
     <td>—</td><td>—</td><td>—</td>
@@ -172,7 +175,6 @@ STUM/
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
-
   <tr>
     <td>STAE (reference)</td>
     <td>—</td><td>—</td><td>—</td>
