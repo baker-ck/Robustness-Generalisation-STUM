@@ -3,47 +3,29 @@
 This repository contains configurations for diverse STGNN models (DCRNN, DGCRN, GMAN, MegaCRN, MTGNN,STGODE and USTCGN) integrated with Spatio-Temporal Unitized Modelling (STUM). Test results are provided for comparison.
 
 ## Implementation notes
-We use the publicly available STUM (https://github.com/RWLinno/STUM) codebase as our training framework. To ensure smooth execution, we applied minor engineering fixes (guarding optional wandb logging, correcting import paths, and fixing logging typos). Data preprocessing, training and evaluation is handled independently by STUM. 
+We use the publicly available STUM (https://github.com/RWLinno/STUM) codebase as our training framework. To ensure smooth execution, we applied minor engineering fixes (correcting import paths, guarding ./save paths and fixing logging typos). No changes were made to model architectures, loss functions, or optimisation procedures.
 
-No changes were made to model architectures, loss functions, or optimisation procedures except:
-1. TensorFlow implementations were converted to PyTorch equivalents
-2. Dimensions of tensors were reshaped for compatibility with STUM pipeline for METR-LA and PeMS-BAY data loader 
-3. Multiple dependencies were resolved via model architecture refactoring into a single source file
-4. Custom wrappers (classes) were added to source files for STUM compatibility and inheritance, comprising
-   - a constructor, and
-   - a forward(x, label) signature 
-5. Custom engines (classes) were added to STUM pipeline for embeddings / necessary training behaviour not provided by STUM
-6. Factory methods added to source files for model instantiation with correct parameters before training in STUM pipeline, comprising an
-   - a get_engine_and_model(args) signature
 
 ## Repo structure
 ```
 STUM/
 ├── README.md
 ├── baseline_models/
-│   └── label_pre_trained_agcrn_model.pt
 |   └── pre_trained_agcrn_model.pt
-|   └── pred_pre_trained_agcrn_model.pt
-│   └── label_pre_trained_d2stgnn_model.pt
 |   └── pre_trained_d2stgnn_model.pt
-|   └── pred_pre_trained_d2stgnn_model.pt
-│   └── label_pre_trained_gwnet_model.pt
 |   └── pre_trained_gwnet_model.pt
-|   └── pred_pre_trained_gwnet_model.pt
-│   └── label_pre_trained_stae_model.pt
 |   └── pre_trained_stae_model.pt
-|   └── pred_pre_trained_stae_model.pt
-│   └── label_pre_trained_stid_model.pt
 |   └── pre_trained_stid_model.pt
-|   └── pred_pre_trained_stid_model.pt
-│   └── label_pre_trained_stgcn_model.pt
 |   └── pre_trained_stgcn_model.pt
-|   └── pred_pre_trained_stgcn_model.pt
-├── enhanced_models/
-│   └── # coming soon
+├── baseline_training_notebooks/
+|   └── acgrn.ipynb
+|   └── d2stgnn.ipynb
+|   └── gwnet.ipynb
+|   └── stae.ipynb
+|   └── stid.ipynb
+|   └── stgcn.ipynb
 ├── stum_patches/
 │   └── non_algorithmic_fixes.diff
-└── stum_version.txt
 └── requirements.txt
 └── environment.yaml
 ```
@@ -51,17 +33,119 @@ STUM/
 ## Environment
 - Python: 3.10.0
 - Google Colab Pro+
-- Device: A1000 (Nvidia)
-- Conda environment: exported in `environment.yaml`
-- Python dependencies: listed in `requirements.txt`
+- Device: A1000 (NVIDIA) with High RAM (80GB)
+- Criteria: best validation loss
 
 ## Results
-- Horizons: 12
-- Batch size: 64
-- Input dim: 3
-- Output dim: 1
 
-Criteria: validation loss
+
+<table>
+  <tr>
+    <th rowspan="2">Experiment #</th>
+    <th rowspan="2">Model</th>
+    <th colspan="3">PEMS03</th>
+    <th colspan="3">PEMS04</th>
+    <th colspan="3">PEMS07</th>
+    <th colspan="3">PEMS08</th>
+    <th colspan="3">PEMS-BAY</th>
+    <th colspan="3">METR-LA</th>
+  </tr>
+
+  <tr>
+    <th>Average MAE</th>
+    <th>Average MSE</th>
+    <th>Average MAPE</th>
+    <th>Average MAE</th>
+    <th>Average MSE</th>
+    <th>Average MAPE</th>
+    <th>Average MAE</th>
+    <th>Average MSE</th>
+    <th>Average MAPE</th>
+    <th>Average MAE</th>
+    <th>Average MSE</th>
+    <th>Average MAPE</th>
+    <th>Average MAE</th>
+    <th>Average MSE</th>
+    <th>Average MAPE</th>
+    <th>Average MAE</th>
+    <th>Average MSE</th>
+    <th>Average MAPE</th>
+  </tr>
+
+  <!-- Experiment 1 -->
+  <tr>
+    <td>Experiment 1</td>
+    <td>Model 1</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+
+  <!-- Experiment 2 -->
+  <tr>
+    <td>Experiment 2</td>
+    <td>Model 2</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+
+  <!-- Experiment 3 -->
+  <tr>
+    <td>Experiment 3</td>
+    <td>Model 3</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+
+  <!-- Experiment 4 -->
+  <tr>
+    <td>Experiment 4</td>
+    <td>Model 4</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+
+  <!-- Experiment 5 -->
+  <tr>
+    <td>Experiment 5</td>
+    <td>Model 5</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+
+  <!-- Experiment 6 -->
+  <tr>
+    <td>Experiment 6</td>
+    <td>Model 6</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+</table>
+
+
 
 <table>
   <tr>
