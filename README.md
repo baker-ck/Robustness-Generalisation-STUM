@@ -11,54 +11,54 @@ STUM/
 ├── README.md
 ├── baseline_models/
 │   ├── agcrn/
-│       ├── pre_trained_agcrn_pems03_model.pt
-│       ├──  pre_trained_agcrn_pems04_model.pt
-│       ├──  pre_trained_agcrn_pems07_model.pt
-│       ├──  pre_trained_agcrn_pems08_model.pt
-│       ├──  pre_trained_agcrn_pemsbay_model.pt
-│       └── pre_trained_agcrn_metrla_model.pt
+│   │   ├── pre_trained_agcrn_pems03_model.pt
+│   │   ├── pre_trained_agcrn_pems04_model.pt
+│   │   ├── pre_trained_agcrn_pems07_model.pt
+│   │   ├── pre_trained_agcrn_pems08_model.pt
+│   │   ├── pre_trained_agcrn_pemsbay_model.pt
+│   │   └── pre_trained_agcrn_metrla_model.pt
 │   ├── d2stgnn/
-│       ├── pre_trained_d2stgnn_pems03_model.pt
-│       ├── pre_trained_d2stgnn_pems04_model.pt
-│       ├── pre_trained_d2stgnn_pems07_model.pt
-│       ├── pre_trained_d2stgnn_model.pt
-│       ├── pre_trained_d2stgnn_pemsbay_model.pt
-│       └── pre_trained_d2stgnn_metrla_model.pt
+│   │   ├── pre_trained_d2stgnn_pems03_model.pt
+│   │   ├── pre_trained_d2stgnn_pems04_model.pt
+│   │   ├── pre_trained_d2stgnn_pems07_model.pt
+│   │   ├──  pre_trained_d2stgnn_model.pt
+│   │   ├── pre_trained_d2stgnn_pemsbay_model.pt
+│   │   └── pre_trained_d2stgnn_metrla_model.pt
 │   ├── gwnet/
-|       ├── pre_trained_gwnet_pems03_model.pt
-|       ├── pre_trained_gwnet_pems04_model.pt
-|       └──pre_trained_gwnet_pems07_model.pt
-|       └──pre_trained_gwnet_pems08_model.pt
-|       └──pre_trained_gwnet_pemsbay_model.pt
-|       └──pre_trained_gwnet_metrla_model.pt
+│   │   ├── pre_trained_gwnet_pems03_model.pt
+│   │   ├── pre_trained_gwnet_pems04_model.pt
+│   │   ├── pre_trained_gwnet_pems07_model.pt
+│   │   ├── pre_trained_gwnet_pems08_model.pt
+│   │   ├── pre_trained_gwnet_pemsbay_model.pt
+│   │   └── pre_trained_gwnet_metrla_model.pt
 |   ├── stae/
-|       ├── pre_trained_stae_pems03_model.pt
-|       ├── pre_trained_stae_pems04_model.pt
-|       ├── pre_trained_stae_pems07_model.pt
-|       └──pre_trained_stae_pems08_model.pt
-|       └──pre_trained_stae_pemsbay_model.pt
-|       └──pre_trained_stae_metrla_model.pt
+│   │   ├── pre_trained_stae_pems03_model.pt
+│   │   ├── pre_trained_stae_pems04_model.pt
+│   │   ├── pre_trained_stae_pems07_model.pt
+│   │   ├── pre_trained_stae_pems08_model.pt
+│   │   ├── pre_trained_stae_pemsbay_model.pt
+│   │   └──pre_trained_stae_metrla_model.pt
 |   ├── stid/
-|       ├──pre_trained_stid_pems03_model.pt
-|       └──pre_trained_stid_pems04_model.pt
-|       └──pre_trained_stid_pems07_model.pt
-|       └──pre_trained_stid_pems08_model.pt
-|       └──pre_trained_stid_pemsbay_model.pt
-|       └──pre_trained_stid_metrla_model.pt
+│   │   ├── pre_trained_stid_pems03_model.pt
+│   │   ├── pre_trained_stid_pems04_model.pt
+│   │   ├── pre_trained_stid_pems07_model.pt
+│   │   ├── pre_trained_stid_pems08_model.pt
+│   │   ├── pre_trained_stid_pemsbay_model.pt
+│   │   └── pre_trained_stid_metrla_model.pt
 |   ├── stcgn/
-|       ├──pre_trained_stgcn_pems03_model.pt
-|       └──pre_trained_stgcn_pems04_model.pt
-|       └──pre_trained_stgcn_pems07_model.pt
-|       └──pre_trained_stgcn_pems08_model.pt
-|       ├──pre_trained_stgcn_pemsbay_model.pt
-│       └──pre_trained_stgcn_metrla_model.pt
+│   │   ├── pre_trained_stgcn_pems03_model.pt
+│   │   ├── pre_trained_stgcn_pems04_model.pt
+│   │   ├── pre_trained_stgcn_pems07_model.pt
+│   │   ├── pre_trained_stgcn_pems08_model.pt
+│   │   ├── pre_trained_stgcn_pemsbay_model.pt
+│   │   └── pre_trained_stgcn_metrla_model.pt
 ├── training_notebooks/
 │   ├── acgrn.ipynb
 │   ├── d2stgnn.ipynb
 │   ├── gwnet.ipynb
 │   ├── stae.ipynb
 │   ├── stid.ipynb
-│   ├── stgcn.ipynb
+│   └── stgcn.ipynb
 ├── stum_patches/
 │   └── main.py
 ├── requirements/
