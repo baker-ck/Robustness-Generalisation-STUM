@@ -90,7 +90,7 @@ STUM/
     <td>1.6795</td><td>3.6302</td><td>0.0379</td>
     <td>3.1107</td><td>6.2288</td><td>0.0866</td>
   </tr>
-    <tr>
+  <tr>
     <td>AGCRN (reference)</td>
     <td>16.69</td><td>27.60</td><td>16.44%</td>
     <td>20.74</td><td>32.61</td><td>14.57%</td>
@@ -110,7 +110,7 @@ STUM/
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
-   <tr>
+  <tr>
     <td>D2STGNN (reference)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -131,7 +131,7 @@ STUM/
     <td>—</td><td>—</td><td>—</td>
   </tr>
   
-    <tr>
+  <tr>
     <td>GWNET (reference)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -152,7 +152,7 @@ STUM/
     <td>—</td><td>—</td><td>—</td>
   </tr>
   
-    <tr>
+  <tr>
     <td>STID (reference)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
@@ -173,7 +173,7 @@ STUM/
     <td>—</td><td>—</td><td>—</td>
   </tr>
 
-    <tr>
+  <tr>
     <td>STAE (reference)</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
