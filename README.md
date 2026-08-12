@@ -52,7 +52,7 @@ STUM/
 |       └──pre_trained_stgcn_pems08_model.pt
 |       └──pre_trained_stgcn_pemsbay_model.pt
 |       └──pre_trained_stgcn_metrla_model.pt
-├── baseline_training_notebooks/
+├── training_notebooks/
 |   └── acgrn.ipynb
 |   └── d2stgnn.ipynb
 |   └── gwnet.ipynb
