@@ -1,6 +1,6 @@
 # Robustness-Generalisation-STUM
 
-This repository contains configurations for diverse STGNN models (DCRNN, DGCRN, GMAN, MegaCRN, MTGNN,STGODE and USTCGN) integrated with Spatio-Temporal Unitized Modelling (STUM). Test results are provided for comparison.
+This repository contains configurations checkpoints for diverse STGNN models (AGCRN, D2STGNN, GWNET, STAE, STID and STGCN) reproduced  with Spatio-Temporal Unitized Modelling (STUM). Test results are provided for comparison.
 
 ## Implementation notes
 We use the publicly available STUM (https://github.com/RWLinno/STUM) codebase as our training framework. To ensure smooth execution, we applied minor engineering fixes (correcting import paths, guarding ./save paths and fixing logging typos). No changes were made to model architectures, loss functions, or optimisation procedures.
@@ -38,15 +38,14 @@ STUM/
 
 ## Results
 
-
 <table>
   <tr>
     <th rowspan="2">Model</th>
-    <th colspan="3">PEMS03</th>
-    <th colspan="3">PEMS04</th>
-    <th colspan="3">PEMS07</th>
-    <th colspan="3">PEMS08</th>
-    <th colspan="3">PEMS-BAY</th>
+    <th colspan="3">PeMS03</th>
+    <th colspan="3">PeMS04</th>
+    <th colspan="3">PeMS07</th>
+    <th colspan="3">PeMS08</th>
+    <th colspan="3">PeMS-BAY</th>
     <th colspan="3">METR-LA</th>
   </tr>
 
