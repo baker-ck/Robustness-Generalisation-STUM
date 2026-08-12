@@ -10,23 +10,23 @@ We use the publicly available STUM (https://github.com/RWLinno/STUM) codebase as
 STUM/
 ├── README.md
 ├── baseline_models/
-|   └── agcrn/
-|       └── pre_trained_agcrn_pems03_model.pt
-|       └── pre_trained_agcrn_pems04_model.pt
-|       └── pre_trained_agcrn_pems07_model.pt
-|       └── pre_trained_agcrn_pems08_model.pt
-|       └── pre_trained_agcrn_pemsbay_model.pt
-|       └── pre_trained_agcrn_metrla_model.pt
-|   └── d2stgnn/
-|       └──pre_trained_d2stgnn_pems03_model.pt
-|       └──pre_trained_d2stgnn_pems04_model.pt
-|       └──pre_trained_d2stgnn_pems07_model.pt
-|       └──pre_trained_d2stgnn_model.pt
-|       └──pre_trained_d2stgnn_pemsbay_model.pt
-|       └──pre_trained_d2stgnn_metrla_model.pt
-|   └── gwnet/
-|       └──pre_trained_gwnet_pems03_model.pt
-|       └──pre_trained_gwnet_pems04_model.pt
+│   ├── agcrn/
+│       ├── pre_trained_agcrn_pems03_model.pt
+│       ├──  pre_trained_agcrn_pems04_model.pt
+│       ├──  pre_trained_agcrn_pems07_model.pt
+│       ├──  pre_trained_agcrn_pems08_model.pt
+│       ├──  pre_trained_agcrn_pemsbay_model.pt
+│       └── pre_trained_agcrn_metrla_model.pt
+│   ├── d2stgnn/
+│       ├── pre_trained_d2stgnn_pems03_model.pt
+│       ├── pre_trained_d2stgnn_pems04_model.pt
+│       ├── pre_trained_d2stgnn_pems07_model.pt
+│       ├── pre_trained_d2stgnn_model.pt
+│       ├── pre_trained_d2stgnn_pemsbay_model.pt
+│       └── pre_trained_d2stgnn_metrla_model.pt
+│   ├── gwnet/
+|       ├── pre_trained_gwnet_pems03_model.pt
+|       ├── pre_trained_gwnet_pems04_model.pt
 |       └──pre_trained_gwnet_pems07_model.pt
 |       └──pre_trained_gwnet_pems08_model.pt
 |       └──pre_trained_gwnet_pemsbay_model.pt
