@@ -31,43 +31,43 @@ STUM/
 |       └──pre_trained_gwnet_pems08_model.pt
 |       └──pre_trained_gwnet_pemsbay_model.pt
 |       └──pre_trained_gwnet_metrla_model.pt
-|   └── stae/
-|       └──pre_trained_stae_pems03_model.pt
-|       └──pre_trained_stae_pems04_model.pt
-|       └──pre_trained_stae_pems07_model.pt
+|   ├── stae/
+|       ├── pre_trained_stae_pems03_model.pt
+|       ├── pre_trained_stae_pems04_model.pt
+|       ├── pre_trained_stae_pems07_model.pt
 |       └──pre_trained_stae_pems08_model.pt
 |       └──pre_trained_stae_pemsbay_model.pt
 |       └──pre_trained_stae_metrla_model.pt
-|   └── stid/
-|       └──pre_trained_stid_pems03_model.pt
+|   ├── stid/
+|       ├──pre_trained_stid_pems03_model.pt
 |       └──pre_trained_stid_pems04_model.pt
 |       └──pre_trained_stid_pems07_model.pt
 |       └──pre_trained_stid_pems08_model.pt
 |       └──pre_trained_stid_pemsbay_model.pt
 |       └──pre_trained_stid_metrla_model.pt
-|   └── stcgn/
-|       └──pre_trained_stgcn_pems03_model.pt
+|   ├── stcgn/
+|       ├──pre_trained_stgcn_pems03_model.pt
 |       └──pre_trained_stgcn_pems04_model.pt
 |       └──pre_trained_stgcn_pems07_model.pt
 |       └──pre_trained_stgcn_pems08_model.pt
-|       └──pre_trained_stgcn_pemsbay_model.pt
-|       └──pre_trained_stgcn_metrla_model.pt
+|       ├──pre_trained_stgcn_pemsbay_model.pt
+│       └──pre_trained_stgcn_metrla_model.pt
 ├── training_notebooks/
-|   └── acgrn.ipynb
-|   └── d2stgnn.ipynb
-|   └── gwnet.ipynb
-|   └── stae.ipynb
-|   └── stid.ipynb
-|   └── stgcn.ipynb
+│   ├── acgrn.ipynb
+│   ├── d2stgnn.ipynb
+│   ├── gwnet.ipynb
+│   ├── stae.ipynb
+│   ├── stid.ipynb
+│   ├── stgcn.ipynb
 ├── stum_patches/
 │   └── main.py
-└── requirements/
-|   └── acgrn_requirements.txt
-|   └── d2stgnn_requirements.txt
-|   └── gwnet_requirements.txt
-|   └── stae_requirements.txt
-|   └── stid_requirements.txt
-|   └── stgcn_requirements.txt
+├── requirements/
+│   ├──  acgrn_requirements.txt
+│   ├──  d2stgnn_requirements.txt
+│   ├──  gwnet_requirements.txt
+│   ├──  stae_requirements.txt
+│   ├── stid_requirements.txt
+│   └── stgcn_requirements.txt
 ```
 
 ## Environment
