@@ -11,7 +11,13 @@ We use the publicly available STUM (https://github.com/RWLinno/STUM) codebase as
 STUM/
 ├── README.md
 ├── baseline_models/
-|   └── pre_trained_agcrn_model.pt
+|   └── agcrn/
+|       └── pre_trained_agcrn_pems03_model.pt
+|       └── pre_trained_agcrn_pems04_model.pt
+|       └── pre_trained_agcrn_pems07_model.pt
+|       └── pre_trained_agcrn_pems08_model.pt
+|       └── pre_trained_agcrn_pemsbay_model.pt
+|       └── pre_trained_agcrn_metrla_model.pt
 |   └── pre_trained_d2stgnn_model.pt
 |   └── pre_trained_gwnet_model.pt
 |   └── pre_trained_stae_model.pt
@@ -26,8 +32,13 @@ STUM/
 |   └── stgcn.ipynb
 ├── stum_patches/
 │   └── non_algorithmic_fixes.diff
-└── requirements.txt
-└── environment.yaml
+└── requirements/
+|   └── acgrn_requirements.txt
+|   └── d2stgnn_requirements.txt
+|   └── gwnet_requirements.txt
+|   └── stae_requirements.txt
+|   └── stid_requirements.txt
+|   └── stgcn_requirements.txt
 ```
 
 ## Environment
