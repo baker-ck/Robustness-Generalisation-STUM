@@ -62,12 +62,13 @@ STUM/
 ├── stum_patches/
 │   └── main.py
 ├── requirements/
-│   ├──  acgrn_requirements.txt
-│   ├──  d2stgnn_requirements.txt
-│   ├──  gwnet_requirements.txt
-│   ├──  stae_requirements.txt
+│   ├── acgrn_requirements.txt
+│   ├── d2stgnn_requirements.txt
+│   ├── gwnet_requirements.txt
+│   ├── stae_requirements.txt
 │   ├── stid_requirements.txt
 │   └── stgcn_requirements.txt
+└── README.md
 ```
 
 ## Environment
@@ -181,10 +182,10 @@ STUM/
   </tr>
   <tr>
     <td>STID (reference)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
+    <td>15.33</td><td>27.40</td><td>16.40%</td>
+    <td>19.58</td><td>31.79</td><td>13.38%</td>
+    <td>21.52</td><td>36.29</td><td>9.15%</td>
+    <td>15.58</td><td>25.89</td><td>10.33%</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
@@ -201,10 +202,10 @@ STUM/
   </tr>
   <tr>
     <td>STAE (reference)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
+    <td>15.29</td><td>25.87</td><td>17.64%</td>
+    <td>20.59</td><td>32.71</td><td>14.79%</td>
+    <td>21.97</td><td>34.81</td><td>9.86%</td>
+    <td>14.71</td><td>23.79</td><td>10.15%</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
@@ -221,10 +222,10 @@ STUM/
   </tr>
   <tr style="background-color:#f5f7fa;">
     <td>STGCN (reference)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
+    <td>17.27</td><td>28.72</td><td>17.74</td>
+    <td>20.62</td><td>31.98</td><td>15.27%</td>
+    <td>24.21</td><td>37.38</td><td>11.31%</td>
+    <td>16.58</td><td>25.65</td><td>11.27%</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
