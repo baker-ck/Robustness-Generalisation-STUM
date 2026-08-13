@@ -161,10 +161,10 @@ STUM/
   </tr>
   <tr>
     <td>GWNET (reference)</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
+    <td>15.16</td><td>25.82</td><td>16.11%</td>
+    <td>19.88</td><td>31.37</td><td>13.96%</td>
+    <td>22.52</td><td>35.97</td><td>9.69%</td>
+    <td>14.92</td><td>23.76</td><td>9.89%</td>
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
