@@ -133,12 +133,12 @@ STUM/
   <!-- Experiment 2 -->
   <tr>
     <td>D2STGNN</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
+    <td>17.1977</td><td>29.1553</td><td>0.1950</td>
+    <td>20.7230</td><td>32.2432</td><td>0.1507</td>
+    <td>24.1579</td><td>37.2138</td><td>0.1113</td>
+    <td>16.4761</td><td>25.5645</td><td>0.1105</td>
+    <td>1.6795</td><td>3.6302</td><td>0.0379</td>
+    <td>3.1107</td><td>6.2288</td><td>0.0866</td>
   </tr>
   <tr>
     <td>D2STGNN (reference)</td>
