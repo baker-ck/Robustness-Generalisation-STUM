@@ -172,26 +172,6 @@ STUM/
 
   <!-- Experiment 4 -->
   <tr>
-    <td>STID</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-  <tr>
-    <td>STID (reference)</td>
-    <td>15.33</td><td>27.40</td><td>16.40%</td>
-    <td>19.58</td><td>31.79</td><td>13.38%</td>
-    <td>21.52</td><td>36.29</td><td>9.15%</td>
-    <td>15.58</td><td>25.89</td><td>10.33%</td>
-    <td>—</td><td>—</td><td>—</td>
-    <td>—</td><td>—</td><td>—</td>
-  </tr>
-
-  <!-- Experiment 5 -->
-  <tr>
     <td>STAE</td>
     <td>17.1977</td><td>29.1553</td><td>0.1950</td>
     <td>20.7230</td><td>32.2432</td><td>0.1507</td>
@@ -209,7 +189,26 @@ STUM/
     <td>—</td><td>—</td><td>—</td>
     <td>—</td><td>—</td><td>—</td>
   </tr>
-
+  
+  <!-- Experiment 5 -->
+  <tr>
+    <td>STID</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
+  <tr>
+    <td>STID (reference)</td>
+    <td>15.33</td><td>27.40</td><td>16.40%</td>
+    <td>19.58</td><td>31.79</td><td>13.38%</td>
+    <td>21.52</td><td>36.29</td><td>9.15%</td>
+    <td>15.58</td><td>25.89</td><td>10.33%</td>
+    <td>—</td><td>—</td><td>—</td>
+    <td>—</td><td>—</td><td>—</td>
+  </tr>
   <!-- Experiment 6 -->
   <tr style="background-color:#f5f7fa;">
     <td>STGCN</td>
