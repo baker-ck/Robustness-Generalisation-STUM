@@ -91,12 +91,12 @@ STUM/
     <th colspan="2">STGCN</th>
   </tr>
   <tr>
-    <th>★</th><th>†</th>
-    <th>★</th><th>†</th>
-    <th>★</th><th>†</th>
-    <th>★</th><th>†</th>
-    <th>★</th><th>†</th>
-    <th>★</th><th>†</th>
+    <th>★</th><th>◆</th>
+    <th>★</th><th>◆</th>
+    <th>★</th><th>◆</th>
+    <th>★</th><th>◆</th>
+    <th>★</th><th>◆</th>
+    <th>★</th><th>◆</th>
   </tr>
 
   <!-- PeMS03 -->
@@ -280,7 +280,7 @@ STUM/
   </tr>
 </table>
 
-<p><strong>★</strong> This study; <strong>†</strong> Reference.</p>
+<p><strong>★</strong> This study; <strong>◆</strong> Reference.</p>
 
 
 
