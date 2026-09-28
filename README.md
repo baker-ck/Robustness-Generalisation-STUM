@@ -163,7 +163,7 @@ STUM/
   <tr>
     <td rowspan="3">PeMS07</td>
     <td>MAE</td>
-    <td>23.88</td><td>23.29</td>
+    <td>TBC</td><td>23.29</td>
     <td>TBC</td><td>21.20</td>
     <td>22.83</td><td>22.52</td>
     <td>TBC</td><td>21.97</td>
@@ -172,7 +172,7 @@ STUM/
   </tr>
   <tr>
     <td>RMSE</td>
-    <td>36.98</td><td>36.18</td>
+    <td>TBC</td><td>36.18</td>
     <td>TBC</td><td>34.09</td>
     <td>36.75</td><td>35.97</td>
     <td>TBC</td><td>34.81</td>
@@ -181,7 +181,7 @@ STUM/
   </tr>
   <tr>
     <td>MAPE</td>
-    <td>0.1040</td><td>0.1007</td>
+    <td>TBC</td><td>0.1007</td>
     <td>TBC</td><td>0.0918</td>
     <td>0.0951</td><td>0.0969</td>
     <td>TBC</td><td>0.0986</td>
