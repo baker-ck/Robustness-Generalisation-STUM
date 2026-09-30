@@ -223,7 +223,7 @@ STUM/
   <tr>
     <td rowspan="3">PeMS-BAY</td>
     <td>MAE</td>
-    <td>1.77</td><td>--</td>
+    <td>TBC</td><td>--</td>
     <td>TBC</td><td>--</td>
     <td>1.63</td><td>--</td>
     <td>1.59</td><td>--</td>
@@ -232,7 +232,7 @@ STUM/
   </tr>
   <tr>
     <td>RMSE</td>
-    <td>3.77</td><td>--</td>
+    <td>TBC</td><td>--</td>
     <td>TBC</td><td>--</td>
     <td>3.58</td><td>--</td>
     <td>3.51</td><td>--</td>
@@ -241,7 +241,7 @@ STUM/
   </tr>
   <tr>
     <td>MAPE</td>
-    <td>0.0412</td><td>--</td>
+    <td>TBC</td><td>--</td>
     <td>TBC</td><td>--</td>
     <td>0.0368</td><td>--</td>
     <td>0.0631</td><td>--</td>
@@ -253,7 +253,7 @@ STUM/
   <tr>
     <td rowspan="3">METR-LA</td>
     <td>MAE</td>
-    <td>3.33</td><td>--</td>
+    <td>TBC</td><td>--</td>
     <td>TBC</td><td>--</td>
     <td>3.08</td><td>--</td>
     <td>3.13</td><td>--</td>
@@ -262,7 +262,7 @@ STUM/
   </tr>
   <tr>
     <td>RMSE</td>
-    <td>6.51</td><td>--</td>
+    <td>TBC</td><td>--</td>
     <td>TBC</td><td>--</td>
     <td>6.08</td><td>--</td>
     <td>6.33</td><td>--</td>
@@ -271,7 +271,7 @@ STUM/
   </tr>
   <tr>
     <td>MAPE</td>
-    <td>0.0944</td><td>--</td>
+    <td>TBC</td><td>--</td>
     <td>TBC</td><td>--</td>
     <td>0.0848</td><td>--</td>
     <td>0.0906</td><td>--</td>
