@@ -253,7 +253,7 @@ STUM/
   <tr>
     <td rowspan="3">METR-LA</td>
     <td>MAE</td>
-    <td>TBC</td><td>--</td>
+    <td>3.33</td><td>--</td>
     <td>TBC</td><td>--</td>
     <td>3.08</td><td>--</td>
     <td>3.13</td><td>--</td>
@@ -262,7 +262,7 @@ STUM/
   </tr>
   <tr>
     <td>RMSE</td>
-    <td>TBC</td><td>--</td>
+    <td>6.47</td><td>--</td>
     <td>TBC</td><td>--</td>
     <td>6.08</td><td>--</td>
     <td>6.33</td><td>--</td>
@@ -271,7 +271,7 @@ STUM/
   </tr>
   <tr>
     <td>MAPE</td>
-    <td>TBC</td><td>--</td>
+    <td>0.0937</td><td>--</td>
     <td>TBC</td><td>--</td>
     <td>0.0848</td><td>--</td>
     <td>0.0906</td><td>--</td>
