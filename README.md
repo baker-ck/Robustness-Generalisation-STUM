@@ -1,6 +1,8 @@
 # Robustness-Generalisation-STUM
 
-This repository contains configurations checkpoints for diverse STGNN models (AGCRN, D2STGNN, GWNET, STAE, STID and STGCN) reproduced  with Spatio-Temporal Unitized Modelling (STUM). Test results are provided for comparison.
+This repository contains configurations and checkpoints for diverse STGNN models (AGCRN, D2STGNN, GWNET, STAE, STID, and STGCN) reproduced using Spatio-Temporal Unitized Modelling (STUM) (Ruan et al., 2025). Test results are provided for comparison on the PeMS03 and PeMS08 datasets. Note that the reported results are for the trained baseline models only and can be compared with those reported in the STUM paper and the respective original repositories. 
+
+Future work will focus on expanded dataset testing (PeMS04, PeMS07, PeMS-BAY, and METR-LA), as well as reproducing the STUM optimisation and integration pipeline to enhance each baseline model.
 
 ## Implementation notes
 We use the publicly available STUM (https://github.com/RWLinno/STUM) codebase as our training framework. To ensure smooth execution, we applied minor engineering fixes (correcting import paths, guarding ./save paths and fixing logging typos) to the main.py executable. No changes were made to model architectures, loss functions, or optimisation procedures.
@@ -12,46 +14,22 @@ STUM/
 ├── baseline_models/
 │   ├── agcrn/
 │   │   ├── pre_trained_agcrn_pems03_model.pt
-│   │   ├── pre_trained_agcrn_pems04_model.pt
-│   │   ├── pre_trained_agcrn_pems07_model.pt
-│   │   ├── pre_trained_agcrn_pems08_model.pt
-│   │   ├── pre_trained_agcrn_pemsbay_model.pt
-│   │   └── pre_trained_agcrn_metrla_model.pt
+│   │   └── pre_trained_agcrn_pems08_model.pt
 │   ├── d2stgnn/
 │   │   ├── pre_trained_d2stgnn_pems03_model.pt
-│   │   ├── pre_trained_d2stgnn_pems04_model.pt
-│   │   ├── pre_trained_d2stgnn_pems07_model.pt
-│   │   ├── pre_trained_d2stgnn_model.pt
-│   │   ├── pre_trained_d2stgnn_pemsbay_model.pt
-│   │   └── pre_trained_d2stgnn_metrla_model.pt
+│   │   └── pre_trained_d2stgnn_pems08_model.pt
 │   ├── gwnet/
 │   │   ├── pre_trained_gwnet_pems03_model.pt
-│   │   ├── pre_trained_gwnet_pems04_model.pt
-│   │   ├── pre_trained_gwnet_pems07_model.pt
-│   │   ├── pre_trained_gwnet_pems08_model.pt
-│   │   ├── pre_trained_gwnet_pemsbay_model.pt
-│   │   └── pre_trained_gwnet_metrla_model.pt
+│   │   └── pre_trained_gwnet_pems08_model.pt
 |   ├── stae/
 │   │   ├── pre_trained_stae_pems03_model.pt
-│   │   ├── pre_trained_stae_pems04_model.pt
-│   │   ├── pre_trained_stae_pems07_model.pt
-│   │   ├── pre_trained_stae_pems08_model.pt
-│   │   ├── pre_trained_stae_pemsbay_model.pt
-│   │   └──pre_trained_stae_metrla_model.pt
+│   │   └── pre_trained_stae_pems08_model.pt
 |   ├── stid/
 │   │   ├── pre_trained_stid_pems03_model.pt
-│   │   ├── pre_trained_stid_pems04_model.pt
-│   │   ├── pre_trained_stid_pems07_model.pt
-│   │   ├── pre_trained_stid_pems08_model.pt
-│   │   ├── pre_trained_stid_pemsbay_model.pt
-│   │   └── pre_trained_stid_metrla_model.pt
+│   │   └── pre_trained_stid_pems08_model.pt
 |   ├── stcgn/
 │   │   ├── pre_trained_stgcn_pems03_model.pt
-│   │   ├── pre_trained_stgcn_pems04_model.pt
-│   │   ├── pre_trained_stgcn_pems07_model.pt
-│   │   ├── pre_trained_stgcn_pems08_model.pt
-│   │   ├── pre_trained_stgcn_pemsbay_model.pt
-│   │   └── pre_trained_stgcn_metrla_model.pt
+│   │   └── pre_trained_stgcn_pems08_model.pt
 ├── training_notebooks/
 │   ├── acgrn.ipynb
 │   ├── d2stgnn.ipynb
@@ -133,7 +111,7 @@ STUM/
     <td rowspan="3">PeMS08</td>
     <td>MAE</td>
     <td>17.32</td><td>15.30</td>
-    <td>TBC</td><td>15.72</td>
+    <td>15.36</td><td>15.72</td>
     <td>15.08</td><td>14.92</td>
     <td>14.55</td><td>14.71</td>
     <td>14.18</td><td>15.58</td>
@@ -142,7 +120,7 @@ STUM/
   <tr>
     <td>RMSE</td>
     <td>26.00</td><td>24.51</td>
-    <td>TBC</td><td>24.67</td>
+    <td>24.37</td><td>24.67</td>
     <td>24.08</td><td>23.76</td>
     <td>23.57</td><td>23.79</td>
     <td>23.30</td><td>25.89</td>
@@ -151,7 +129,7 @@ STUM/
   <tr>
     <td>MAPE</td>
     <td>0.1076</td><td>0.1029</td>
-    <td>TBC</td><td>0.1146</td>
+    <td>0.1172</td><td>0.1146</td>
     <td>0.0974</td><td>0.0989</td>
     <td>0.0985</td><td>0.1015</td>
     <td>0.0915</td><td>0.1033</td>
@@ -166,6 +144,10 @@ STUM/
 ## Reference
 
 The implementation of STUM is based on the IEEE T-ITS 2025 paper “Cross Space and Time: A Spatio-Temporal Unitized Model for Traffic Flow Forecasting”, with the following citation:
+<ul>
+  <p>Paper: Ruan et al. (2025), Cross Space and Time: A Spatio-Temporal Unitized Model for Traffic Flow Forecasting, IEEE Transactions on Intelligent Transportation Systems. </p>
+  <p>Implementation: https://github.com/RWLinno/STUM/ </p>
+</ul>
 
 ```bibtex
 @article{ruan2025cross,
