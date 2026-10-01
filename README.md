@@ -5,7 +5,7 @@ This repository contains configurations and checkpoints for diverse STGNN models
 Future work will focus on expanded dataset testing (PeMS04, PeMS07, PeMS-BAY, and METR-LA), as well as reproducing the STUM optimisation and integration pipeline to enhance each baseline model.
 
 ## Implementation notes
-We use the publicly available STUM (https://github.com/RWLinno/STUM) codebase as our training framework. To ensure smooth execution, we applied minor engineering fixes (correcting import paths, guarding ./save paths and fixing logging typos) to the main.py executable. No changes were made to model architectures, loss functions, or optimisation procedures.
+We use the STUM (https://github.com/RWLinno/STUM) codebase as our training framework. To ensure smooth execution, we applied minor engineering fixes (correcting import paths, guarding ./save paths and fixing logging typos) to the main.py executable. No changes were made to model architectures, loss functions, or optimisation procedures.
 
 ## Repo structure
 ```
@@ -142,11 +142,6 @@ STUM/
 
 
 ## Reference
-
-The implementation of STUM is based on the IEEE T-ITS 2025 paper “Cross Space and Time: A Spatio-Temporal Unitized Model for Traffic Flow Forecasting”, with the following citation:
-- Paper: Ruan et al. (2025), Cross Space and Time: A Spatio-Temporal Unitized Model for Traffic Flow Forecasting, IEEE Transactions on Intelligent Transportation Systems.
-- Implementation: https://github.com/RWLinno/STUM
-
 ```bibtex
 @article{ruan2025cross,
   title={Cross space and time: A spatio-temporal unitized model for traffic flow forecasting},
