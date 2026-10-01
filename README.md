@@ -144,10 +144,8 @@ STUM/
 ## Reference
 
 The implementation of STUM is based on the IEEE T-ITS 2025 paper “Cross Space and Time: A Spatio-Temporal Unitized Model for Traffic Flow Forecasting”, with the following citation:
-<ul>
-  <p>Paper: Ruan et al. (2025), Cross Space and Time: A Spatio-Temporal Unitized Model for Traffic Flow Forecasting, IEEE Transactions on Intelligent Transportation Systems. </p>
-  <p>Implementation: https://github.com/RWLinno/STUM/ </p>
-</ul>
+- Paper: Ruan et al. (2025), Cross Space and Time: A Spatio-Temporal Unitized Model for Traffic Flow Forecasting, IEEE Transactions on Intelligent Transportation Systems.
+- Implementation: https://github.com/RWLinno/STUM
 
 ```bibtex
 @article{ruan2025cross,
