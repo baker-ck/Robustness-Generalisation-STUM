@@ -74,8 +74,7 @@ STUM/
 ## Environment
 - Python: 3.10.0
 - Google Colab Pro+
-- Device: A1000 (NVIDIA) with High RAM (80GB)
-- Criteria: best validation loss
+- Device: A1000 80GB with High RAM
 
 ## Results
 
@@ -127,66 +126,6 @@ STUM/
     <td>0.1618</td><td>0.1764</td>
     <td>0.1646</td><td>0.1640</td>
     <td>0.1950</td><td>0.1774</td>
-  </tr>
-
-  <!-- PeMS04 -->
-  <tr>
-    <td rowspan="3">PeMS04</td>
-    <td>MAE</td>
-    <td>21.15</td><td>20.74</td>
-    <td>TBC</td><td>22.85</td>
-    <td>19.89</td><td>19.88</td>
-    <td>TBC</td><td>20.59</td>
-    <td>18.35</td><td>19.58</td>
-    <td>20.72</td><td>20.62</td>
-  </tr>
-  <tr>
-    <td>RMSE</td>
-    <td>32.93</td><td>32.61</td>
-    <td>TBC</td><td>35.23</td>
-    <td>31.46</td><td>31.37</td>
-    <td>TBC</td><td>32.71</td>
-    <td>29.79</td><td>31.79</td>
-    <td>32.24</td><td>31.98</td>
-  </tr>
-  <tr>
-    <td>MAPE</td>
-    <td>0.1593</td><td>0.1457</td>
-    <td>TBC</td><td>0.1733</td>
-    <td>0.1389</td><td>0.1396</td>
-    <td>TBC</td><td>0.1479</td>
-    <td>0.1250</td><td>0.1338</td>
-    <td>0.1507</td><td>0.1527</td>
-  </tr>
-
-  <!-- PeMS07 -->
-  <tr>
-    <td rowspan="3">PeMS07</td>
-    <td>MAE</td>
-    <td>24.00</td><td>23.29</td>
-    <td>TBC</td><td>21.20</td>
-    <td>22.83</td><td>22.52</td>
-    <td>TBC</td><td>21.97</td>
-    <td>19.7</td><td>21.52</td>
-    <td>24.16</td><td>24.21</td>
-  </tr>
-  <tr>
-    <td>RMSE</td>
-    <td>37.16</td><td>36.18</td>
-    <td>TBC</td><td>34.09</td>
-    <td>36.75</td><td>35.97</td>
-    <td>TBC</td><td>34.81</td>
-    <td>32.75</td><td>36.29</td>
-    <td>37.21</td><td>37.38</td>
-  </tr>
-  <tr>
-    <td>MAPE</td>
-    <td>0.1045</td><td>0.1007</td>
-    <td>TBC</td><td>0.0918</td>
-    <td>0.0951</td><td>0.0969</td>
-    <td>TBC</td><td>0.0986</td>
-    <td>0.0917</td><td>0.0915</td>
-    <td>0.1113</td><td>0.1131</td>
   </tr>
 
   <!-- PeMS08 -->
