@@ -13,23 +13,66 @@ STUM/
 ├── README.md
 ├── baseline_models/
 │   ├── agcrn/
+│   │   ├── label_pre_trained_agcrn_pems03_model.pt
 │   │   ├── pre_trained_agcrn_pems03_model.pt
-│   │   └── pre_trained_agcrn_pems08_model.pt
+│   │   ├── pred_pre_trained_agcrn_pems03_model.pt
+│   │   ├── label_pre_trained_agcrn_pems08_model.pt
+│   │   ├── pre_trained_agcrn_pems08_model.pt
+│   │   └── pred_pre_trained_agcrn_pems08_model.pt
 │   ├── d2stgnn/
+│   │   ├── label_pre_trained_d2stgnn_pems03_model.pt
 │   │   ├── pre_trained_d2stgnn_pems03_model.pt
-│   │   └── pre_trained_d2stgnn_pems08_model.pt
+│   │   ├── pred_pre_trained_d2stgnn_pems03_model.pt
+│   │   ├── label_pre_trained_d2stgnn_pems08_model.pt
+│   │   ├── pre_trained_d2stgnn_pems08_model.pt
+│   │   └── pred_pre_trained_d2stgnn_pems08_model.pt
 │   ├── gwnet/
+│   │   ├── label_pre_trained_gwnet_pems03_model.pt
 │   │   ├── pre_trained_gwnet_pems03_model.pt
-│   │   └── pre_trained_gwnet_pems08_model.pt
+│   │   ├── pred_pre_trained_gwnet_pems03_model.pt
+│   │   ├── label_pre_trained_gwnet_pems08_model.pt
+│   │   ├── pre_trained_gwnet_pems08_model.pt
+│   │   └── pred_pre_trained_gwnet_pems08_model.pt
 |   ├── stae/
+│   │   ├── pre_trained_stae_pems03_model.pt
+│   │   ├── pre_trained_stae_pems03_model.pt
+│   │   ├── pre_trained_stae_pems03_model.pt
+│   │   ├── pre_trained_stae_pems03_model.pt
 │   │   ├── pre_trained_stae_pems03_model.pt
 │   │   └── pre_trained_stae_pems08_model.pt
 |   ├── stid/
+│   │   ├── label_pre_trained_stid_pems03_model.pt
 │   │   ├── pre_trained_stid_pems03_model.pt
-│   │   └── pre_trained_stid_pems08_model.pt
+│   │   ├── pred_pre_trained_stid_pems03_model.pt
+│   │   ├── label_pre_trained_stid_pems08_model.pt
+│   │   ├── pre_trained_stid_pems08_model.pt
+│   │   └── pred_pre_trained_stid_pems08_model.pt
 |   ├── stcgn/
+│   │   ├── label_pre_trained_stgcn_pems03_model.pt
 │   │   ├── pre_trained_stgcn_pems03_model.pt
-│   │   └── pre_trained_stgcn_pems08_model.pt
+│   │   ├── pred_pre_trained_stgcn_pems03_model.pt
+│   │   ├── label_pre_trained_stgcn_pems08_model.pt
+│   │   ├── pre_trained_stgcn_pems08_model.pt
+│   │   └── pred_pre_trained_stgcn_pems08_model.pt
+├── training_logs/
+│   ├── agcrn/
+│   │   ├── record_s998244353_agcrn_PEMS03.log
+│   │   └── record_s998244353_agcrn_PEMS08.log
+│   ├── d2stgnn/
+│   │   ├── record_s998244353_d2stgnn_PEMS03.log
+│   │   └── record_s998244353_d2stgnn_PEMS08.log
+│   ├── gwnet/
+│   │   ├── record_s998244353_gwnet_PEMS03.log
+│   │   └── record_s998244353_gwnet_PEMS08.log
+|   ├── stae/
+│   │   ├── record_s998244353_stae_PEMS03.log
+│   │   └── record_s998244353_stae_PEMS08.log
+|   ├── stid/
+│   │   ├── record_s998244353_stid_PEMS03.log
+│   │   └── record_s998244353_stid_PEMS08.log
+|   ├── stcgn/
+│   │   ├── record_s998244353_stgcn_PEMS03.log
+│   │   └── record_s998244353_stgcn_PEMS08.log
 ├── training_notebooks/
 │   ├── acgrn.ipynb
 │   ├── d2stgnn.ipynb
